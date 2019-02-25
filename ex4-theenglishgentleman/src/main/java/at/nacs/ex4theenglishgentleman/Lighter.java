@@ -1,11 +1,20 @@
 package at.nacs.ex4theenglishgentleman;
 
 import lombok.Data;
+import org.springframework.stereotype.Component;
 
-@Data
+@Component
+
 public class Lighter {
 
-    private Boolean lit = false;
+    private Cigar cigar;
+
+    public Lighter(Cigar cigar) {
+        this.cigar = cigar;
+    }
+
+
+
 
 
 

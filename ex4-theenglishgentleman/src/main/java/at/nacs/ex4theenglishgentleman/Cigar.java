@@ -1,13 +1,22 @@
 package at.nacs.ex4theenglishgentleman;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Cigar {
 
-    private Lighter lighter;
+    private Boolean lit = false;
 
-    public Cigar(Lighter lighter) {
-        this.lighter = lighter;
+
+    public Boolean isLit() {
+        return lit;
     }
 
-  public String
+    public String smoke() {
+        if (isLit()) {
+            throw new EmptyStackException();
+        }
+
+    }
 
 }
