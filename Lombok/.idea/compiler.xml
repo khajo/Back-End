@@ -3,6 +3,32 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ex1-helloworld" />
+        <module name="ex2-amazinghelloworld" />
+        <module name="ex3-thecursedcoin" />
+        <module name="ex4-theenglishgentleman" />
+        <module name="spring-fundamentals" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ex1-helloworld" target="11" />
+      <module name="ex2-amazinghelloworld" target="11" />
+      <module name="ex3-thecursedcoin" target="11" />
+      <module name="ex4-theenglishgentleman" target="11" />
+      <module name="spring-fundamentals" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ex1-helloworld" options="-parameters" />
+      <module name="ex2-amazinghelloworld" options="-parameters" />
+      <module name="ex3-thecursedcoin" options="-parameters" />
+      <module name="ex4-theenglishgentleman" options="-parameters" />
+      <module name="spring-fundamentals" options="-parameters" />
+    </option>
   </component>
 </project>
