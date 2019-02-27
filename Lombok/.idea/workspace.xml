@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46f479ed-4de6-4773-a140-e9e260684a27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoffeeBeans/fruit/delivery.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoffeeBeans/fruit/testFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Cigar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Cigar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/EnglishGentleman.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/EnglishGentleman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Lighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Lighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Monocle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Monocle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Newspaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/Newspaper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/CigarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/CigarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/EnglishGentlemanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex4-theenglishgentleman/src/test/java/at/nacs/ex4theenglishgentleman/EnglishGentlemanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/ExpressionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/ExpressionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/DivisionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/DivisionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/MultiplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/MultiplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeNumber/src/main/java/nacs/reflection/demo/PrimeAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeNumber/src/main/java/nacs/reflection/demo/PrimeAdder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeNumber/src/main/java/nacs/reflection/demo/Primes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeNumber/src/main/java/nacs/reflection/demo/Primes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeNumber/src/test/java/nacs/reflection/demo/PrimesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../primeNumber/src/test/java/nacs/reflection/demo/PrimesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../ex1-helloworld/target/" />
@@ -40,10 +27,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/SubtractionTest.java">
+        <entry file="file://$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/DivisionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="39" />
+            <state relative-caret-position="342">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +94,6 @@
         <option value="$PROJECT_DIR$/../ex4-theenglishgentleman/src/main/java/at/nacs/ex4theenglishgentleman/EnglishGentleman.java" />
         <option value="$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/Calculator.java" />
         <option value="$PROJECT_DIR$/../ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/operation/Calculator.java" />
-        <option value="$PROJECT_DIR$/../ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/Calculator.java" />
         <option value="$PROJECT_DIR$/../ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Calculator.java" />
         <option value="$PROJECT_DIR$/../ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/Expressions.java" />
         <option value="$PROJECT_DIR$/../ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/Operation.java" />
@@ -123,6 +112,7 @@
         <option value="$PROJECT_DIR$/../ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/model/Expressions.java" />
         <option value="$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/AdditionTest.java" />
         <option value="$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/SubtractionTest.java" />
+        <option value="$PROJECT_DIR$/../ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/Calculator.java" />
       </list>
     </option>
   </component>
@@ -265,7 +255,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551260390360" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551272933593" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -481,7 +471,7 @@
       <workItem from="1550826144677" duration="241000" />
       <workItem from="1551096659538" duration="10408000" />
       <workItem from="1551174351089" duration="7402000" />
-      <workItem from="1551185479995" duration="9381000" />
+      <workItem from="1551185479995" duration="11764000" />
     </task>
     <servers />
   </component>
@@ -518,13 +508,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57535000" />
+    <option name="totallyTimeSpent" value="59918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20437567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20437567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -533,14 +523,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31746033" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31746033" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39894179" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32861805" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32804233" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32698414" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -731,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/operation/Addition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -838,16 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/DivisionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/MultiplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -860,8 +833,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/SubtractionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="432">
           <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ex5-thecalculator/src/main/java/at/nacs/ex5thecalculator/controller/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ex5-thecalculator/src/test/java/at/nacs/ex5thecalculator/controller/operation/DivisionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

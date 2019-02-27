@@ -1,34 +1,31 @@
 package nacs.reflection.demo;
 
-
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-class PrimesTest {
-
+class PrimeAdderTest {
 
     @Autowired
-    Primes primes;
+    PrimeAdder primeAdder;
 
     @ParameterizedTest
     @CsvSource({
 
-            "0, false",
-            "1, false",
-            "2, true",
-            "3, true",
-            "4, false",
-            "5, true",
-            "122, false",
+            "10, 129",
+            "20, 639",
+            "100, 24133",
     })
-    void testIsPrimeNumber(Integer number, Boolean expected) {
-        Boolean result = primes.isPrime(number);
+    void counter(Integer number, Integer expected) {
+        Integer result = primeAdder.counter(number);
         Assertions.assertEquals(expected, result);
+
 
     }
 }

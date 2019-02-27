@@ -20,6 +20,7 @@ public class Calculator {
         return operations.stream()
                 .filter(e -> e.matches(expression))
                 .map(e -> e.apply(expression))
-                .findFirst().orElseThrow(IllegalArgumentException::new);
+                .findFirst()
+                .orElseThrow(IllegalArgumentException::new);
     }
 }
