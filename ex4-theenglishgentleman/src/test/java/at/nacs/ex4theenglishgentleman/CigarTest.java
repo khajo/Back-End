@@ -17,6 +17,7 @@ class CigarTest {
         assertFalse(cigar.isLit());
 
         cigar.setLit(true);
+        assertTrue(cigar.isLit());
         assertDoesNotThrow(() -> cigar.smoke());
     }
 

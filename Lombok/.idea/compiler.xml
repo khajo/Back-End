@@ -11,6 +11,7 @@
         <module name="ex2-amazinghelloworld" />
         <module name="ex3-thecursedcoin" />
         <module name="ex4-theenglishgentleman" />
+        <module name="ex5-thecalculator" />
         <module name="spring-fundamentals" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="ex2-amazinghelloworld" target="11" />
       <module name="ex3-thecursedcoin" target="11" />
       <module name="ex4-theenglishgentleman" target="11" />
+      <module name="ex5-thecalculator" target="11" />
       <module name="spring-fundamentals" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -28,6 +30,7 @@
       <module name="ex2-amazinghelloworld" options="-parameters" />
       <module name="ex3-thecursedcoin" options="-parameters" />
       <module name="ex4-theenglishgentleman" options="-parameters" />
+      <module name="ex5-thecalculator" options="-parameters" />
       <module name="spring-fundamentals" options="-parameters" />
     </option>
   </component>

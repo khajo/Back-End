@@ -1,22 +1,23 @@
 package at.nacs.ex4theenglishgentleman;
 
+import lombok.Data;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+
 @Component
+@Scope("prototype")
+@Data
 public class Cigar {
+    private boolean lit;
 
-    private Boolean lit = false;
 
-
-    public Boolean isLit() {
-        return lit;
-    }
-
-    public String smoke() {
-        if (isLit()) {
-            throw new EmptyStackException();
+    public void smoke() throws CigarWasNotLitException {
+        if (!isLit()) {
+            throw new CigarWasNotLitException();
         }
-
+        System.out.println("smoke the cigar");
     }
+
 
 }
