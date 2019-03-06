@@ -1,17 +1,19 @@
-package at.nacs.ex6propertiespart1properties;
+package at.nacs.demo;
 
 import lombok.Getter;
 import lombok.Setter;
-import lombok.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
+
+
+import java.util.LinkedList;
+
 
 @Component
 @Getter
 @Setter
-@ConfigurationProperties("place")
-public class Sauna {
+@ConfigurationProperties("team")
+public class BasketballTeamLoader {
 
-    private Integer availableSeats;
-    private Integer temperature;
+    private LinkedList<BasketballTeam> basketballTeams;
 }

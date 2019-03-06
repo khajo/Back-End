@@ -1,25 +1,19 @@
-package at.nacs.ex6propertiespart1properties;
+package at.nacs.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-
 @SpringBootTest
-class SaunaTest {
-
+class BasketballTeamLoaderTest {
 
     @Autowired
-    Sauna sauna;
+    BasketballTeamLoader team;
 
     @Test
-    void getAvailableSeats() {
+    void getBasketballTeams() {
 
-
-    }
-
-    @Test
-    void getTemperature() {
+        System.out.println(team.getBasketballTeams());
 
     }
 }
