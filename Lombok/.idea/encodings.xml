@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/Ex6" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ex1-helloworld" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ex2-amazinghelloworld" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ex3-thecursedcoin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ex4-theenglishgentleman" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ex5-thecalculator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../NACS-EL_Back-End-i4/i4-backend/ex5-thecalculator/src/main" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../NACS-EL_Back-End-i4/i4-backend/fundamentals2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../NACS-EL_Back-End-i4/i4-backend/fundamentals2-yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../NACS-EL_Back-End-i4/i4-backend/spring-fundamentals" charset="UTF-8" />
   </component>
 </project>

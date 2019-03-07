@@ -1,0 +1,26 @@
+word:
+  wordFantastic: word fantastic
+number:
+  number: 369
+week:
+  days: Monday,Tuesady,Wensday,Thursday,Freiday,Saterday,Sonnday
+
+shop:
+  books:HarryPotter: 3
+  TheFoundation: 2
+  TheLordOfTheRings: 4
+
+place:
+  availableSeats: 2
+  temperature: 70
+
+
+person:
+  ballerinas:
+  - name: Judith
+    performance: 1
+  - name: Liza
+    performance: 4
+  - name: Nver
+    performance: 3
+
