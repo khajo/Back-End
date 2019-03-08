@@ -2,6 +2,7 @@ package at.nacs.demo;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
+
 import java.util.List;
 
 @Component
@@ -9,7 +10,6 @@ import java.util.List;
 public class TemplateEngine {
 
     private final List<Template> templates;
-
 
     public String getText(String name) {
         return templates.stream()

@@ -7,15 +7,15 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.Map;
 
-
-@Setter
-@ConfigurationProperties("moves")
 @Configuration
+@ConfigurationProperties("game")
 public class MovesConfiguration {
-   private Map<Integer, String> moves;
-
+    @Setter
+    private Map<Integer, String> moves;
     @Bean
-    Map<Integer, String> getMoves() {
+    Map<Integer, String> moves() {
         return moves;
     }
 }
+
+
