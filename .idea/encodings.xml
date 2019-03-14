@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/reflectionweek3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/marathon-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/marco" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/moreseencoder/morse" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/pirates/dutchman" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/pirates/jacksparrow" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/pirates/tiadalma" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/polo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/weather/weather-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/weather/weather-sensor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/weather/weather-server" charset="UTF-8" />
+  </component>
+</project>

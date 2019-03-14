@@ -1,0 +1,9 @@
+server:
+  port: 9002
+
+weather:
+  server:
+    url: http://localhost:9001/weather
+
+
+

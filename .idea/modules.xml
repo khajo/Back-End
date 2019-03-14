@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Back-End-i4.iml" filepath="$PROJECT_DIR$/Back-End-i4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/marathon-server/demo.iml" filepath="$PROJECT_DIR$/web/marathon-server/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflectionweek3/demo (1).iml" filepath="$PROJECT_DIR$/reflectionweek3/demo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/pirates/dutchman/dutchman.iml" filepath="$PROJECT_DIR$/web/pirates/dutchman/dutchman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/pirates/jacksparrow/jacksparrow.iml" filepath="$PROJECT_DIR$/web/pirates/jacksparrow/jacksparrow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/marco/marco.iml" filepath="$PROJECT_DIR$/web/marco/marco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/moreseencoder/morse/morse.iml" filepath="$PROJECT_DIR$/web/moreseencoder/morse/morse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/polo/polo.iml" filepath="$PROJECT_DIR$/web/polo/polo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/pirates/tiadalma/tiadalma.iml" filepath="$PROJECT_DIR$/web/pirates/tiadalma/tiadalma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/weather/weather-client/weather.iml" filepath="$PROJECT_DIR$/web/weather/weather-client/weather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/weather/weather-sensor/weather-sensor.iml" filepath="$PROJECT_DIR$/web/weather/weather-sensor/weather-sensor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/weather/weather-server/weather-server.iml" filepath="$PROJECT_DIR$/web/weather/weather-server/weather-server.iml" />
+    </modules>
+  </component>
+</project>

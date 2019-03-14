@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="demo (1)" />
+        <module name="dutchman" />
+        <module name="jacksparrow" />
+        <module name="marco" />
+        <module name="morse" />
+        <module name="polo" />
+        <module name="tiadalma" />
+        <module name="weather" />
+        <module name="weather-sensor" />
+        <module name="weather-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="11" />
+      <module name="demo (1)" target="11" />
+      <module name="dutchman" target="11" />
+      <module name="jacksparrow" target="11" />
+      <module name="marco" target="11" />
+      <module name="morse" target="11" />
+      <module name="polo" target="11" />
+      <module name="tiadalma" target="11" />
+      <module name="weather" target="11" />
+      <module name="weather-client" target="11" />
+      <module name="weather-sensor" target="11" />
+      <module name="weather-server" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="demo (1)" options="-parameters" />
+      <module name="dutchman" options="-parameters" />
+      <module name="jacksparrow" options="-parameters" />
+      <module name="marco" options="-parameters" />
+      <module name="morse" options="-parameters" />
+      <module name="polo" options="-parameters" />
+      <module name="tiadalma" options="-parameters" />
+      <module name="weather" options="-parameters" />
+      <module name="weather-client" options="-parameters" />
+      <module name="weather-sensor" options="-parameters" />
+      <module name="weather-server" options="-parameters" />
+    </option>
+  </component>
+</project>
