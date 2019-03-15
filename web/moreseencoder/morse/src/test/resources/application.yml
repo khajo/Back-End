@@ -1,0 +1,8 @@
+server:
+  port: 9001
+code:
+  morseMap:
+    A: .-
+    B: -...
+    C: -.-.
+    9: ----.

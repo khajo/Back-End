@@ -9,6 +9,7 @@
         <module name="demo" />
         <module name="demo (1)" />
         <module name="dutchman" />
+        <module name="encoder" />
         <module name="jacksparrow" />
         <module name="marco" />
         <module name="morse" />
@@ -23,6 +24,7 @@
       <module name="demo" target="11" />
       <module name="demo (1)" target="11" />
       <module name="dutchman" target="11" />
+      <module name="encoder" target="11" />
       <module name="jacksparrow" target="11" />
       <module name="marco" target="11" />
       <module name="morse" target="11" />
@@ -39,6 +41,7 @@
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
       <module name="dutchman" options="-parameters" />
+      <module name="encoder" options="-parameters" />
       <module name="jacksparrow" options="-parameters" />
       <module name="marco" options="-parameters" />
       <module name="morse" options="-parameters" />
