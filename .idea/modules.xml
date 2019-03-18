@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/Back-End-i4.iml" filepath="$PROJECT_DIR$/Back-End-i4.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/marathon-server/demo.iml" filepath="$PROJECT_DIR$/web/marathon-server/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflectionweek3/demo (1).iml" filepath="$PROJECT_DIR$/reflectionweek3/demo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-admission/drhouse-admission.iml" filepath="$PROJECT_DIR$/hospital/drhouse-admission/drhouse-admission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-diagnoses/drhouse-diagnoses.iml" filepath="$PROJECT_DIR$/hospital/drhouse-diagnoses/drhouse-diagnoses.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/pirates/dutchman/dutchman.iml" filepath="$PROJECT_DIR$/web/pirates/dutchman/dutchman.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/moreseencoder/encoder/encoder.iml" filepath="$PROJECT_DIR$/web/moreseencoder/encoder/encoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/pirates/jacksparrow/jacksparrow.iml" filepath="$PROJECT_DIR$/web/pirates/jacksparrow/jacksparrow.iml" />

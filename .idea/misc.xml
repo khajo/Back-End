@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/web/pirates/jacksparrow/pom.xml" />
         <option value="$PROJECT_DIR$/web/moreseencoder/morse/pom.xml" />
         <option value="$PROJECT_DIR$/web/moreseencoder/encoder/pom.xml" />
+        <option value="$PROJECT_DIR$/hospital/drhouse-admission/pom.xml" />
+        <option value="$PROJECT_DIR$/hospital/drhouse-diagnoses/pom.xml" />
       </list>
     </option>
   </component>
