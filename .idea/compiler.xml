@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cup" />
         <module name="demo" />
         <module name="demo (1)" />
+        <module name="demo (2)" />
         <module name="drhouse-admission" />
         <module name="drhouse-diagnoses" />
         <module name="dutchman" />
@@ -23,8 +25,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cup" target="11" />
       <module name="demo" target="11" />
       <module name="demo (1)" target="11" />
+      <module name="demo (2)" target="11" />
       <module name="drhouse-admission" target="11" />
       <module name="drhouse-diagnoses" target="11" />
       <module name="dutchman" target="11" />
@@ -42,8 +46,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cup" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
+      <module name="demo (2)" options="-parameters" />
       <module name="drhouse-admission" options="-parameters" />
       <module name="drhouse-diagnoses" options="-parameters" />
       <module name="dutchman" options="-parameters" />

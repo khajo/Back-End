@@ -15,6 +15,7 @@ public class DiagnosesClient {
     private final RestTemplate restTemplate;
 
 
+
     @Value("${diagnoses.server.url}")
     String url;
 

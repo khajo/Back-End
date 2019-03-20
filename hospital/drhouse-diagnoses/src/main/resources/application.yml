@@ -1,4 +1,6 @@
 server:
   port: 9002
-
-
+info:
+  diagnosisMap:
+    drunk: stop drinking
+    hungry: eat hummus
