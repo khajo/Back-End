@@ -1,0 +1,19 @@
+symbol:
+  signMap:
+    Ox: 1
+    Tiger: 2
+    Rabbit: 3
+    Dragon: 4
+    Snake: 5
+    Horse: 6
+    Goat: 7
+    Monkey: 8
+    Rooster: 9
+    Dog: 10
+    Pig: 11
+    Rat: 12
+
+url:
+  urlFindChineseSignOfYear: https://fengshui-api.com/api/v1/findChineseSignOfYear?token=N0997G7613A0Mbed4fM8d9Ud93A0z4eb02e79F19&
+  urlFindSignCompatibility: https://fengshui-api.com/api/v1/findSignCompatibility?token=N0997G7613A0Mbed4fM8d9Ud93A0z4eb02e79F19&
+  urlFindLoveCompatibility: https://fengshui-api.com/api/v1/findLoveCompatibility?token=N0997G7613A0Mbed4fM8d9Ud93A0z4eb02e79F19&

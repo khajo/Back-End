@@ -14,6 +14,7 @@
         <module name="drhouse-diagnoses" />
         <module name="dutchman" />
         <module name="encoder" />
+        <module name="fengshui-api" />
         <module name="jacksparrow" />
         <module name="marco" />
         <module name="morse" />
@@ -33,6 +34,7 @@
       <module name="drhouse-diagnoses" target="11" />
       <module name="dutchman" target="11" />
       <module name="encoder" target="11" />
+      <module name="fengshui-api" target="11" />
       <module name="jacksparrow" target="11" />
       <module name="marco" target="11" />
       <module name="morse" target="11" />
@@ -54,6 +56,7 @@
       <module name="drhouse-diagnoses" options="-parameters" />
       <module name="dutchman" options="-parameters" />
       <module name="encoder" options="-parameters" />
+      <module name="fengshui-api" options="-parameters" />
       <module name="jacksparrow" options="-parameters" />
       <module name="marco" options="-parameters" />
       <module name="morse" options="-parameters" />
