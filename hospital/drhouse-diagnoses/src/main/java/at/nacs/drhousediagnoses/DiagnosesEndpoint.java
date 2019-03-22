@@ -12,13 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class DiagnosesEndpoint {
 
-    private final DrHouse doktor;
+    private final AddmissionClient addmissionClient;
 
     @PostMapping
     Patient post(@RequestBody  Patient patient) {
-        String diagnosis = doktor.getDiagnosis(patient.getSymptoms());
-        patient.setDiagnosis(diagnosis);
-        return patient;
+        return addmissionClient.post(patient);
     }
 
 

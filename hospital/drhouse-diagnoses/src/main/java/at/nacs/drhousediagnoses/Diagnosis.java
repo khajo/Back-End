@@ -14,5 +14,5 @@ public class Diagnosis {
 
     @Setter
     @Getter
-    private Map<String, String> diagnosisMap;
+    private Map<String, String> diagnosis;
 }

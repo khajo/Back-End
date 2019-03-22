@@ -1,6 +1,10 @@
 server:
   port: 9002
+addmimssion:
+  server:
+    url: http://localhost:9001/patients
+
 info:
-  diagnosisMap:
+  diagnosis:
     drunk: stop drinking
     hungry: eat hummus

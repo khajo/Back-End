@@ -1,4 +1,4 @@
-package at.nacs.drhouseadmission;
+package at.nacs.drhousediagnoses;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

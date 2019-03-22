@@ -11,7 +11,7 @@ public class DrHouse {
 
 
     public String getDiagnosis(String symptoms) {
-        String dignosis = diagnosis.getDiagnosisMap().getOrDefault(symptoms, "no");
+        String dignosis = diagnosis.getDiagnosis().getOrDefault(symptoms, "PLease wait in the waiting room");
         System.out.println(dignosis);
         return dignosis;
     }
