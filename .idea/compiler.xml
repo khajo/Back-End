@@ -18,8 +18,10 @@
         <module name="jacksparrow" />
         <module name="marco" />
         <module name="morse" />
+        <module name="mypersonaltodo" />
         <module name="polo" />
         <module name="tiadalma" />
+        <module name="twitter-board" />
         <module name="weather" />
         <module name="weather-sensor" />
         <module name="weather-server" />
@@ -38,8 +40,10 @@
       <module name="jacksparrow" target="11" />
       <module name="marco" target="11" />
       <module name="morse" target="11" />
+      <module name="mypersonaltodo" target="11" />
       <module name="polo" target="11" />
       <module name="tiadalma" target="11" />
+      <module name="twitter-board" target="11" />
       <module name="weather" target="11" />
       <module name="weather-client" target="11" />
       <module name="weather-sensor" target="11" />
@@ -60,8 +64,10 @@
       <module name="jacksparrow" options="-parameters" />
       <module name="marco" options="-parameters" />
       <module name="morse" options="-parameters" />
+      <module name="mypersonaltodo" options="-parameters" />
       <module name="polo" options="-parameters" />
       <module name="tiadalma" options="-parameters" />
+      <module name="twitter-board" options="-parameters" />
       <module name="weather" options="-parameters" />
       <module name="weather-client" options="-parameters" />
       <module name="weather-sensor" options="-parameters" />

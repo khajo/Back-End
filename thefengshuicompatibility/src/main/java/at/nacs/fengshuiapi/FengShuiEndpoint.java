@@ -16,6 +16,7 @@ import java.time.LocalDate;
 public class FengShuiEndpoint {
 
     final private FangShuiClient fangShuiClient;
+    private final RestTemplate restTemplate;
 
 
     @GetMapping("{birthday}")
