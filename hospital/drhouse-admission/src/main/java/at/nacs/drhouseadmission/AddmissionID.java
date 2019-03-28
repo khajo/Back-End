@@ -1,15 +1,16 @@
 package at.nacs.drhouseadmission;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 
 
-@Component
+@Service
 public class AddmissionID {
 
 
-    public Patient getID(Patient patient) {
+    public Patient setID(Patient patient) {
         patient.setId(UUID.randomUUID().toString());
         return patient;
     }

@@ -1,10 +1,22 @@
 server:
   port: 9002
-addmimssion:
+
+bed:
   server:
-    url: http://localhost:9001/patients
+    url: http://localhost:9002/patients
+
+pharmacy:
+  server:
+    url: http://localhost:9002/patients
 
 info:
   diagnosis:
-    drunk: stop drinking
-    hungry: eat hummus
+    headache: Migraine
+    headache1: 1Migraine1
+    headache2: 2Migraine2
+
+direction:
+  forwords:
+      Migraine: bed
+      Migraine1: pharmacy
+      Migraine2: bed

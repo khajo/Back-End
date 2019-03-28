@@ -1,21 +1,21 @@
 package at.nacs.drhousediagnoses;
 
-
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Repository;
 
 import java.util.Map;
 
 @Repository
-@ConfigurationProperties("info")
-public class Diagnosis {
+@ConfigurationProperties("direction")
+public class ForwordPatient {
 
-    @Setter
+
     @Getter
-    private Map<String, String> diagnosis;
-
-
+    @Setter
+    private Map<String, String> forwords;
 
 }

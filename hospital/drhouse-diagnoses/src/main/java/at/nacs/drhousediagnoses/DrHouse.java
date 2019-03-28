@@ -8,12 +8,16 @@ import org.springframework.stereotype.Service;
 public class DrHouse {
 
     private final Diagnosis diagnosis;
+    private final ForwordPatient forwordPatient;
 
 
     public String getDiagnosis(String symptoms) {
-        String dignosis = diagnosis.getDiagnosis().getOrDefault(symptoms, "PLease wait in the waiting room");
-        System.out.println(dignosis);
-        return dignosis;
+        return diagnosis.getDiagnosis().getOrDefault(symptoms, "PLease wait in the waiting room");
+    }
+
+
+    public String send(String diagnosis) {
+        return forwordPatient.getForwords().getOrDefault(diagnosis, "I d'not know");
     }
 
 }

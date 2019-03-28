@@ -7,17 +7,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-
 @RestController
 @RequestMapping("/patients")
 @RequiredArgsConstructor
 public class PatientEndpoint {
 
-    private final AddmissionID addmissionID;
+    private final DiagnosesClient diagnosesClient;
 
-    @PostMapping()
+    @PostMapping
     Patient post(@RequestBody Patient patient) {
-        addmissionID.getID(patient);
+         diagnosesClient.post(patient);
         return patient;
     }
 

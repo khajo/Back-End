@@ -6,25 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cup" />
-        <module name="demo" />
-        <module name="demo (1)" />
-        <module name="demo (2)" />
-        <module name="drhouse-admission" />
-        <module name="drhouse-diagnoses" />
-        <module name="dutchman" />
-        <module name="encoder" />
-        <module name="fengshui-api" />
-        <module name="jacksparrow" />
-        <module name="marco" />
-        <module name="morse" />
-        <module name="mypersonaltodo" />
-        <module name="polo" />
         <module name="tiadalma" />
-        <module name="twitter-board" />
+        <module name="morse" />
+        <module name="demo (1)" />
+        <module name="demo" />
         <module name="weather" />
-        <module name="weather-sensor" />
+        <module name="encoder" />
+        <module name="dutchman" />
+        <module name="polo" />
         <module name="weather-server" />
+        <module name="mypersonaltodo" />
+        <module name="marco" />
+        <module name="weather-sensor" />
+        <module name="cup" />
+        <module name="drhouse-bed" />
+        <module name="drhouse-admission" />
+        <module name="demo (2)" />
+        <module name="jacksparrow" />
+        <module name="fengshui-api" />
+        <module name="drhouse-diagnoses" />
+        <module name="twitter-board" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +34,7 @@
       <module name="demo (1)" target="11" />
       <module name="demo (2)" target="11" />
       <module name="drhouse-admission" target="11" />
+      <module name="drhouse-bed" target="11" />
       <module name="drhouse-diagnoses" target="11" />
       <module name="dutchman" target="11" />
       <module name="encoder" target="11" />
@@ -57,6 +59,7 @@
       <module name="demo (1)" options="-parameters" />
       <module name="demo (2)" options="-parameters" />
       <module name="drhouse-admission" options="-parameters" />
+      <module name="drhouse-bed" options="-parameters" />
       <module name="drhouse-diagnoses" options="-parameters" />
       <module name="dutchman" options="-parameters" />
       <module name="encoder" options="-parameters" />
