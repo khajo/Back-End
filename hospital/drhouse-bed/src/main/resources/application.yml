@@ -3,9 +3,8 @@ server:
 
 addmimssion:
     server:
-      url: http://localhost:9002/patients
+      url: http://localhost:9005/patients
 info:
   treatments:
     Migraine: BloodtestsComputerizedTomographyScan
-    Migraine1: 1BloodtestsComputerizedTomographyScan1
-    Migraine2: 2BloodtestsComputerizedTomographyScan2
+    Migraine2: 1BloodtestsComputerizedTomographyScan2

@@ -1,6 +1,6 @@
 server:
   port: 9001
 
-addmimssion:
+admission:
   server:
     url: http://localhost:9002/patients

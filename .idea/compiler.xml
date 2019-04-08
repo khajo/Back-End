@@ -6,29 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tiadalma" />
-        <module name="morse" />
-        <module name="twitter-board" />
-        <module name="mypersonaltodo" />
-        <module name="demo" />
-        <module name="phonebook" />
-        <module name="demo (2)" />
-        <module name="marco" />
-        <module name="dutchman" />
-        <module name="polo" />
-        <module name="weather-server" />
-        <module name="encoder" />
-        <module name="socialnetwork" />
-        <module name="weather-sensor" />
         <module name="cup" />
+        <module name="demo" />
         <module name="demo (1)" />
+        <module name="demo (2)" />
+        <module name="demo (3)" />
+        <module name="drhouse-accountancy" />
         <module name="drhouse-admission" />
         <module name="drhouse-bed" />
-        <module name="jacksparrow" />
-        <module name="fengshui-api" />
         <module name="drhouse-diagnoses" />
-        <module name="example" />
+        <module name="drhouse-pharmacy" />
+        <module name="dutchman" />
+        <module name="encoder" />
+        <module name="ex1-helloworld" />
+        <module name="fengshui-api" />
+        <module name="jacksparrow" />
+        <module name="marco" />
+        <module name="morse" />
+        <module name="mypersonaltodo" />
+        <module name="phonebook" />
+        <module name="polo" />
+        <module name="tiadalma" />
+        <module name="twitter-board" />
         <module name="weather" />
+        <module name="weather-sensor" />
+        <module name="weather-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,12 +38,15 @@
       <module name="demo" target="11" />
       <module name="demo (1)" target="11" />
       <module name="demo (2)" target="11" />
+      <module name="demo (3)" target="11" />
+      <module name="drhouse-accountancy" target="11" />
       <module name="drhouse-admission" target="11" />
       <module name="drhouse-bed" target="11" />
       <module name="drhouse-diagnoses" target="11" />
+      <module name="drhouse-pharmacy" target="11" />
       <module name="dutchman" target="11" />
       <module name="encoder" target="11" />
-      <module name="example" target="11" />
+      <module name="ex1-helloworld" target="11" />
       <module name="fengshui-api" target="11" />
       <module name="jacksparrow" target="11" />
       <module name="marco" target="11" />
@@ -49,7 +54,6 @@
       <module name="mypersonaltodo" target="11" />
       <module name="phonebook" target="11" />
       <module name="polo" target="11" />
-      <module name="socialnetwork" target="11" />
       <module name="tiadalma" target="11" />
       <module name="twitter-board" target="11" />
       <module name="weather" target="11" />
@@ -64,12 +68,15 @@
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
       <module name="demo (2)" options="-parameters" />
+      <module name="demo (3)" options="-parameters" />
+      <module name="drhouse-accountancy" options="-parameters" />
       <module name="drhouse-admission" options="-parameters" />
       <module name="drhouse-bed" options="-parameters" />
       <module name="drhouse-diagnoses" options="-parameters" />
+      <module name="drhouse-pharmacy" options="-parameters" />
       <module name="dutchman" options="-parameters" />
       <module name="encoder" options="-parameters" />
-      <module name="example" options="-parameters" />
+      <module name="ex1-helloworld" options="-parameters" />
       <module name="fengshui-api" options="-parameters" />
       <module name="jacksparrow" options="-parameters" />
       <module name="marco" options="-parameters" />
@@ -77,7 +84,6 @@
       <module name="mypersonaltodo" options="-parameters" />
       <module name="phonebook" options="-parameters" />
       <module name="polo" options="-parameters" />
-      <module name="socialnetwork" options="-parameters" />
       <module name="tiadalma" options="-parameters" />
       <module name="twitter-board" options="-parameters" />
       <module name="weather" options="-parameters" />

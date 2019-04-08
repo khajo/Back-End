@@ -1,0 +1,9 @@
+server:
+  port: 9005
+
+info:
+  prices:
+    1BloodtestsComputerizedTomographyScan2: 120
+    Migraine1Tablet1: 40
+    BloodtestsComputerizedTomographyScan: 1220
+    Migraine3Tablet3: 440

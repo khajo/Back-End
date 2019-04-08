@@ -1,0 +1,8 @@
+server:
+  port: 9004
+
+
+info:
+ medicaments:
+   Migraine1: Migraine1Tablet1
+   Migraine3: Migraine3Tablet3

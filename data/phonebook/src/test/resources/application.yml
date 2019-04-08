@@ -1,13 +1,8 @@
-info:
-  contact1:
-    name: khajag
-    address:
-      name: 1234
-  contact2:
-    name: Mustafa
-    address:
-      name: 1234
-  contact3:
-    name: Mustafa
-    address:
-      name: 12345
+dataset:
+   contacts:
+     - name: khajag
+       address:
+         name: Test address
+     - name: Artur
+       address:
+         name: Fake address

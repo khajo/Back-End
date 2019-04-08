@@ -1,5 +1,8 @@
 package at.nacs.twitterboard;
 
+import at.nacs.twitterboard.logic.TweetManager;
+import at.nacs.twitterboard.presistence.Tweet;
+import at.nacs.twitterboard.presistence.TweetRepository;
 import lombok.Setter;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
@@ -12,8 +15,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 import java.util.Optional;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 
 @SpringBootTest

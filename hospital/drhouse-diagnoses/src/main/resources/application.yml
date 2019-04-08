@@ -3,20 +3,22 @@ server:
 
 bed:
   server:
-    url: http://localhost:9002/patients
+    url: http://localhost:9003/patients
 
 pharmacy:
   server:
-    url: http://localhost:9002/patients
+    url: http://localhost:9004/patients
 
-info:
+dataset:
   diagnosis:
     headache: Migraine
-    headache1: 1Migraine1
-    headache2: 2Migraine2
+    headache1: Migraine1
+    headache2: Migraine2
+    headache3: Migraine3
 
 direction:
   forwords:
       Migraine: bed
       Migraine1: pharmacy
       Migraine2: bed
+      Migraine3: pharmacy

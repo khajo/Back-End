@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Map;
 
 @Repository
-@ConfigurationProperties("info")
+@ConfigurationProperties("dataset")
 public class Diagnosis {
 
     @Setter

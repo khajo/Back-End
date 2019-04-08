@@ -25,9 +25,10 @@
         <option value="$PROJECT_DIR$/data/mypersonaltodo/pom.xml" />
         <option value="$PROJECT_DIR$/data/twitter-board/pom.xml" />
         <option value="$PROJECT_DIR$/hospital/drhouse-bed/pom.xml" />
-        <option value="$PROJECT_DIR$/data/example/pom.xml" />
+        <option value="$PROJECT_DIR$/ex1-helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/data/phonebook/pom.xml" />
-        <option value="$PROJECT_DIR$/data/socialnetwork/pom.xml" />
+        <option value="$PROJECT_DIR$/hospital/drhouse-pharmacy/pom.xml" />
+        <option value="$PROJECT_DIR$/hospital/drhouse-accountancy/pom.xml" />
       </list>
     </option>
   </component>
