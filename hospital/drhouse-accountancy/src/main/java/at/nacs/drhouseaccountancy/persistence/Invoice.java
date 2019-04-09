@@ -1,12 +1,18 @@
 package at.nacs.drhouseaccountancy.persistence;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
 @Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Invoice {
 
     @Id
@@ -25,6 +31,5 @@ public class Invoice {
     private boolean paid;
     private LocalDateTime timestamp;
 
-    public Invoice() {
-    }
+
 }

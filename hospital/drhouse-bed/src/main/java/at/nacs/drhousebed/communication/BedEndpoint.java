@@ -23,9 +23,8 @@ public class BedEndpoint {
     @PostMapping
     Patient post(@RequestBody Patient patient) {
         Patient patient1 = manager.add(patient);
-
-       // return restTemplate.postForObject(url, patient1, Patient.class);
-        return patient1;
+        return restTemplate.postForObject(url, patient1, Patient.class);
+     //   return patient1;
     }
 
 

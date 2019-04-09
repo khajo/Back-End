@@ -1,6 +1,9 @@
 server:
   port: 9004
 
+addmimssion:
+  server:
+    url: http://localhost:9005/patients
 
 info:
  medicaments:

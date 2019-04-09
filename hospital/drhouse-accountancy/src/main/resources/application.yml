@@ -1,6 +1,15 @@
 server:
   port: 9005
 
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/drhouse-accountancy?useSSL=false
+    username: nacsuser
+    password: nacs
+  jpa:
+    hibernate:
+      ddl-auto: update
+
 info:
   prices:
     1BloodtestsComputerizedTomographyScan2: 120
