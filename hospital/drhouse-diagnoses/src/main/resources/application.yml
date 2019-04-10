@@ -17,7 +17,7 @@ dataset:
     headache3: Migraine3
 
 direction:
-  forwords:
+  directions:
       Migraine: bed
       Migraine1: pharmacy
       Migraine2: bed

@@ -1,4 +1,4 @@
-package at.nacs.drhouseadmission.controller;
+package at.nacs.drhouseadmission.logic;
 
 import at.nacs.drhouseadmission.domain.Patient;
 import org.springframework.stereotype.Service;

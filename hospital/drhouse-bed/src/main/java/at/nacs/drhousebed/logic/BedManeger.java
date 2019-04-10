@@ -11,12 +11,10 @@ import org.springframework.stereotype.Service;
 public class BedManeger {
 
     private final BedRepository repository;
-    private final Nurse nurse;
 
 
     public Patient add(Patient patient) {
-        Patient patientafterTreatment = nurse.treat(patient);
-        return repository.save(patientafterTreatment);
+        return repository.save(patient);
     }
 
 

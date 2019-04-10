@@ -1,31 +1,32 @@
-package at.nacs.drhousebed;
+package at.nacs.drhouseadmission.communication;
 
-
-import at.nacs.drhousebed.logic.Nurse;
-import at.nacs.drhousebed.persistence.Patient;
+import at.nacs.drhouseadmission.logic.AddmissionID;
+import at.nacs.drhouseadmission.domain.Patient;
 import lombok.RequiredArgsConstructor;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+
 @RestController
 @RequiredArgsConstructor
 public class DiagnosesClient {
 
     private final RestTemplate restTemplate;
-    private final Nurse nurse;
+    private final AddmissionID addmissionID;
 
 
-    @Value("${addmimssion.server.url}")
+    @Value("${admission.server.url}")
     private String url;
 
 
-
     @PostMapping
-    Patient post(@RequestBody Patient patientByDokter) {
-        Patient patient = nurse.treat(patientByDokter);
-        return  restTemplate.postForObject(url, patient, Patient.class);
+   public Patient post(@RequestBody Patient person) {
+        Patient patient = addmissionID.setID(person);
+        return restTemplate.postForObject(url, patient, Patient.class);
     }
+
 }

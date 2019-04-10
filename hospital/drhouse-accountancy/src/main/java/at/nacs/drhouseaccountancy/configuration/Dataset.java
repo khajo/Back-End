@@ -16,7 +16,7 @@ public class Dataset {
     private Map<String, Double> prices;
 
     @Bean
-     public Map<String,Double> prices() {
+    public Map<String, Double> prices() {
         return prices;
     }
 

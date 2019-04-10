@@ -1,6 +1,8 @@
-package at.nacs.drhousediagnoses;
+package at.nacs.drhousediagnoses.communication;
 
 
+import at.nacs.drhousediagnoses.Manager;
+import at.nacs.drhousediagnoses.persistence.Patient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -17,9 +19,7 @@ public class DiagnosesEndpoint {
 
     @PostMapping
     Patient post(@RequestBody Patient patient) {
-        Patient patient1 = manager.post(patient);
-
-        return patient1;
+        return manager.post(patient);
     }
 
 

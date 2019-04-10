@@ -12,7 +12,6 @@ public class PharmacyManager {
     private final Apothecary apothecary;
 
     public Patient add(Patient patient) {
-        apothecary.giveMedicament(patient);
         return repository.save(patient);
     }
 

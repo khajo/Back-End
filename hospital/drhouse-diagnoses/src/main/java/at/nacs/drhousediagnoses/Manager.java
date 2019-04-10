@@ -1,36 +1,29 @@
 package at.nacs.drhousediagnoses;
 
 
+import at.nacs.drhousediagnoses.communication.BedClient;
+import at.nacs.drhousediagnoses.communication.PharmacyClient;
+import at.nacs.drhousediagnoses.logic.DrHouse;
+import at.nacs.drhousediagnoses.persistence.Patient;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
+import org.springframework.stereotype.Service;
 
 
-@RestController
+@Service
 @RequiredArgsConstructor
 public class Manager {
 
-    private final RestTemplate restTemplate;
     private final DrHouse drHouse;
+    private final BedClient bedClient;
+    private final PharmacyClient pharmacyClient;
 
 
-    @Value("${bed.server.url}")
-    private String bedUrl;
-
-    @Value("${pharmacy.server.url}")
-    private String pharmacyUrl;
-
-
-    @PostMapping
-    Patient post(@RequestBody Patient patient) {
-        Patient patientanalysed = drHouse.getDiagnoses(patient);
-        String direction = drHouse.send(patientanalysed);
+    public Patient post(Patient person) {
+        Patient patient = drHouse.getDiagnoses(person);
+        String direction = drHouse.send(patient);
         if (direction.equals("pharmacy")) {
-            return restTemplate.postForObject(pharmacyUrl, patient, Patient.class);
+            return pharmacyClient.postToPharmacy(patient);
         }
-      return restTemplate.postForObject(bedUrl, patient, Patient.class);
+        return bedClient.postToBed(patient);
     }
 }

@@ -1,4 +1,4 @@
-package at.nacs.drhousediagnoses;
+package at.nacs.drhousediagnoses.Configuration;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -16,6 +16,6 @@ public class ForwordPatient {
 
     @Getter
     @Setter
-    private Map<String, String> forwords;
+    private Map<String, String> directions;
 
 }

@@ -1,6 +1,7 @@
 package at.nacs.drhouseaccountancy.communication;
 
 
+import at.nacs.drhouseaccountancy.logic.Accountancymanager;
 import at.nacs.drhouseaccountancy.logic.Accountant;
 import at.nacs.drhouseaccountancy.persistence.Invoice;
 import at.nacs.drhouseaccountancy.persistence.PatientDTO;
@@ -15,22 +16,24 @@ import java.util.List;
 public class AccountancyEndpoint {
 
     private final Accountant accountant;
+    private final Accountancymanager accountancymanager;
 
 
     @PostMapping("/patients")
-    PatientDTO psot(@RequestBody PatientDTO patientDTO) {
-        return accountant.store(patientDTO);
+   void psot(@RequestBody PatientDTO patientDTO) {
+        double cost = accountant.setCost(patientDTO);
+        accountancymanager.savePatient(patientDTO);
+        accountancymanager.saveInvoice(patientDTO, cost);
     }
-
 
 
     @GetMapping("/invoices")
     List<Invoice> getInvoices() {
-        return accountant.invoices();
+        return accountancymanager.invoices();
     }
 
     @PutMapping("/invoices/{id}/paid")
     void put(@PathVariable Long id) {
-        accountant.setAspaid(id);
+        accountancymanager.setAspaid(id);
     }
 }

@@ -16,7 +16,7 @@ public class Nurse {
 
     public Patient treat(Patient patient) {
         String diagnosis = patient.getDiagnosis();
-        String treatment = treatments.getOrDefault(diagnosis, "no");
+        String treatment = treatments.get(diagnosis);
         patient.setTreatment(treatment);
         return patient;
     }

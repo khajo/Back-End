@@ -1,5 +1,8 @@
-package at.nacs.drhousediagnoses;
+package at.nacs.drhousediagnoses.logic;
 
+import at.nacs.drhousediagnoses.Configuration.Diagnosis;
+import at.nacs.drhousediagnoses.Configuration.ForwordPatient;
+import at.nacs.drhousediagnoses.persistence.Patient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -22,7 +25,7 @@ public class DrHouse {
 
     public String send(Patient patient) {
         String diagnosis = patient.getDiagnosis();
-        return forwordPatient.getForwords().getOrDefault(diagnosis, "I d'not know");
+        return forwordPatient.getDirections().getOrDefault(diagnosis, "Please Wait!!");
     }
 
 }

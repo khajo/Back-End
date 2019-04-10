@@ -1,4 +1,4 @@
-package at.nacs.drhousediagnoses;
+package at.nacs.drhousediagnoses.Configuration;
 
 
 import lombok.Getter;

@@ -1,7 +1,7 @@
 server:
   port: 9004
 
-addmimssion:
+accountancy:
   server:
     url: http://localhost:9005/patients
 
