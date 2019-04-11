@@ -1,6 +1,8 @@
 package at.nacs.drhouseadmission.communication;
 
 import at.nacs.drhouseadmission.domain.Patient;
+import at.nacs.drhouseadmission.logic.Admission;
+import at.nacs.drhouseadmission.logic.PatientManager;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -11,13 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/patients")
 @RequiredArgsConstructor
-public class PatientEndpoint {
+public class AdmissionEndpoint {
 
-    private final DiagnosesClient manager;
+    private final PatientManager patientManager;
 
     @PostMapping
     Patient post(@RequestBody Patient patient) {
-       return manager.post(patient);
+        return patientManager.post(patient);
     }
 
 

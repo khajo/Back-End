@@ -1,11 +1,14 @@
-package at.nacs.drhousediagnoses.Configuration;
+package at.nacs.drhousediagnoses.persistence;
+
 
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 import lombok.Setter;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Repository;
+;
 
 import java.util.Map;
 
@@ -14,8 +17,10 @@ import java.util.Map;
 public class ForwordPatient {
 
 
-    @Getter
     @Setter
+    @Getter
     private Map<String, String> directions;
+
+
 
 }

@@ -12,7 +12,7 @@ import java.util.Objects;
 @Service
 public class CostManager {
 
-    private final Map<String, Double> prices;
+       private final Map<String, Double> prices;
 
 
     public double setCost(PatientDTO patientDTO) {

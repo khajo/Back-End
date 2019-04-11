@@ -6,5 +6,5 @@ accountancy:
       url: http://localhost:9005/patients
 info:
   treatments:
-    Migraine: BloodtestsComputerizedTomographyScan
-    Migraine2: 1BloodtestsComputerizedTomographyScan2
+    getrest: 3daysREst
+    heartattack: operation
