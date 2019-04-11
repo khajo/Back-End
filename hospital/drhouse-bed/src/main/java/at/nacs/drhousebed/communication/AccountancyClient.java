@@ -20,7 +20,7 @@ public class AccountancyClient {
     private String accountancyUrl;
 
 
-    Patient post(Patient perosn) {
+    public Patient post(Patient perosn) {
         Patient patient = nurse.treat(perosn);
         return restTemplate.postForObject(accountancyUrl, patient, Patient.class);
     }

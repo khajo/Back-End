@@ -1,4 +1,4 @@
-package at.nacs.drhousediagnoses;
+package at.nacs.drhousediagnoses.logic;
 
 
 import at.nacs.drhousediagnoses.communication.BedClient;
@@ -18,12 +18,12 @@ public class Manager {
     private final PharmacyClient pharmacyClient;
 
 
-    public Patient post(Patient person) {
-        Patient patient = drHouse.getDiagnoses(person);
-        String direction = drHouse.send(patient);
+    public Patient post(Patient patient) {
+        Patient patientByDoctor = drHouse.getDiagnoses(patient);
+        String direction = drHouse.send(patientByDoctor);
         if (direction.equals("pharmacy")) {
-            return pharmacyClient.postToPharmacy(patient);
+            return pharmacyClient.postToPharmacy(patientByDoctor);
         }
-        return bedClient.postToBed(patient);
+        return bedClient.postToBed(patientByDoctor);
     }
 }

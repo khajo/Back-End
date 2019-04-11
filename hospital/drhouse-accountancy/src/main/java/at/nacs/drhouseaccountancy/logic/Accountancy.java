@@ -9,7 +9,7 @@ import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
-public class Accountancymanager {
+public class Accountancy {
 
     private final PatientRepository patientRepository;
     private final InvoiceRepository invoiceRepository;
@@ -17,14 +17,15 @@ public class Accountancymanager {
     private final InvoiceCreator invoiceCreator;
 
 
+
     public Patient savePatient(PatientDTO patientDTO) {
-        Patient patient = patientCreator.getPatient(patientDTO);
+        Patient patient = patientCreator.creat(patientDTO);
         return patientRepository.save(patient);
     }
 
 
-    public Invoice saveInvoice(PatientDTO patientDTO, double cost) {
-        Invoice invoice = invoiceCreator.getInvoice(patientDTO, cost);
+    public Invoice saveInvoice(PatientDTO patientDTO) {
+        Invoice invoice = invoiceCreator.creat(patientDTO,savePatient(patientDTO));
         return invoiceRepository.save(invoice);
     }
 

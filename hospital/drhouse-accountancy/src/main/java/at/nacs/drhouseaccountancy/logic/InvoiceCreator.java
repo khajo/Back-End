@@ -15,18 +15,17 @@ import java.util.Objects;
 @RequiredArgsConstructor
 public class InvoiceCreator {
 
-    private final PatientCreator patientCreator;
+    private final CostManager costManager;
 
 
-    public Invoice getInvoice(PatientDTO patientDTO, double cost) {
-        Patient patient = patientCreator.getPatient(patientDTO);
+    public Invoice creat(PatientDTO patientDTO, Patient patient) {
         return Invoice.builder()
                 .patient(patient)
                 .kind(getKind(patientDTO))
                 .symptoms(patientDTO.getSymptoms())
                 .diagnosis(patientDTO.getDiagnosis())
                 .provided(getProvided(patientDTO))
-                .cost(cost)
+                .cost(costManager.setCost(patientDTO))
                 .paid(false)
                 .timestamp(LocalDateTime.now())
                 .build();

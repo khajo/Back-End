@@ -12,14 +12,12 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class BedEndpoint {
 
-    private final AccountancyClient accountancyClient;
     private final BedManeger manager;
 
 
     @PostMapping
     Patient post(@RequestBody Patient patient) {
-        manager.add(patient);
-        return accountancyClient.post(patient);
+        return manager.post(patient);
     }
 
 

@@ -1,7 +1,7 @@
 package at.nacs.drhousediagnoses.communication;
 
 
-import at.nacs.drhousediagnoses.Manager;
+import at.nacs.drhousediagnoses.logic.Manager;
 import at.nacs.drhousediagnoses.persistence.Patient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -20,13 +20,13 @@ public class Invoice {
     private Long id;
 
     @ManyToOne
-    private Patient patient; //(many to one)
+    private Patient patient;
 
     @Enumerated(EnumType.STRING)
-    private Kind kind; //(enum)
+    private Kind kind;
     private String symptoms;
     private String diagnosis;
-    private String provided;// (either the treatment given or the medicine suggested)
+    private String provided;
     private double cost;
     private boolean paid;
     private LocalDateTime timestamp;

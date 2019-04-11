@@ -15,13 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class PharmacyEndpoint {
 
     private final PharmacyManager manager;
-    private final AccountancyClient accountancyClient;
 
 
     @PostMapping
     Patient post(@RequestBody Patient patient) {
-        manager.add(patient);
-        return accountancyClient.post(patient);
+        return manager.post(patient);
     }
 
 

@@ -1,8 +1,7 @@
 package at.nacs.drhouseaccountancy.communication;
 
 
-import at.nacs.drhouseaccountancy.logic.Accountancymanager;
-import at.nacs.drhouseaccountancy.logic.Accountant;
+import at.nacs.drhouseaccountancy.logic.Accountancy;
 import at.nacs.drhouseaccountancy.persistence.Invoice;
 import at.nacs.drhouseaccountancy.persistence.PatientDTO;
 import lombok.RequiredArgsConstructor;
@@ -15,25 +14,23 @@ import java.util.List;
 @RequiredArgsConstructor
 public class AccountancyEndpoint {
 
-    private final Accountant accountant;
-    private final Accountancymanager accountancymanager;
+
+    private final Accountancy accountancy;
 
 
     @PostMapping("/patients")
-   void psot(@RequestBody PatientDTO patientDTO) {
-        double cost = accountant.setCost(patientDTO);
-        accountancymanager.savePatient(patientDTO);
-        accountancymanager.saveInvoice(patientDTO, cost);
+   void post(@RequestBody PatientDTO patientDTO) {
+        accountancy.saveInvoice(patientDTO);
     }
 
 
     @GetMapping("/invoices")
     List<Invoice> getInvoices() {
-        return accountancymanager.invoices();
+        return accountancy.invoices();
     }
 
     @PutMapping("/invoices/{id}/paid")
     void put(@PathVariable Long id) {
-        accountancymanager.setAspaid(id);
+        accountancy.setAspaid(id);
     }
 }

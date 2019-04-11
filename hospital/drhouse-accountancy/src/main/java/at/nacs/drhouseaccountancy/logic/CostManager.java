@@ -1,6 +1,6 @@
 package at.nacs.drhouseaccountancy.logic;
 
-import at.nacs.drhouseaccountancy.persistence.*;
+import at.nacs.drhouseaccountancy.persistence.PatientDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -8,9 +8,9 @@ import java.util.Map;
 import java.util.Objects;
 
 
-@Service
 @RequiredArgsConstructor
-public class Accountant {
+@Service
+public class CostManager {
 
     private final Map<String, Double> prices;
 
@@ -34,6 +34,4 @@ public class Accountant {
         return prices.getOrDefault(treatment, null);
 
     }
-
-
 }

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class PatientCreator {
 
 
-    public Patient getPatient(PatientDTO patientDTO) {
+    public Patient creat(PatientDTO patientDTO) {
         return Patient.builder()
                 .uuid(patientDTO.getId())
                 .name(patientDTO.getName())

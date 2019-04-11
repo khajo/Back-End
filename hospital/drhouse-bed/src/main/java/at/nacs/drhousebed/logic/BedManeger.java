@@ -1,6 +1,7 @@
 package at.nacs.drhousebed.logic;
 
 
+import at.nacs.drhousebed.communication.AccountancyClient;
 import at.nacs.drhousebed.persistence.BedRepository;
 import at.nacs.drhousebed.persistence.Patient;
 import lombok.RequiredArgsConstructor;
@@ -11,10 +12,12 @@ import org.springframework.stereotype.Service;
 public class BedManeger {
 
     private final BedRepository repository;
+    private final AccountancyClient accountancyClient;
 
 
-    public Patient add(Patient patient) {
-        return repository.save(patient);
+    public Patient post(Patient patient) {
+        Patient patientInBed = repository.save(patient);
+        return accountancyClient.post(patientInBed);
     }
 
 
