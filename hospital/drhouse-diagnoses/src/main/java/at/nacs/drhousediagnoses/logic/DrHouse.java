@@ -1,7 +1,6 @@
 package at.nacs.drhousediagnoses.logic;
 
 
-import at.nacs.drhousediagnoses.Configuration.Diagnosis;
 import at.nacs.drhousediagnoses.persistence.Patient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

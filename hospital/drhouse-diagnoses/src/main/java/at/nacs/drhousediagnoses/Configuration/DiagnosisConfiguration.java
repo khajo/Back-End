@@ -1,5 +1,4 @@
-package at.nacs.drhouseaccountancy.configuration;
-
+package at.nacs.drhousediagnoses.Configuration;
 
 
 import lombok.Setter;
@@ -11,15 +10,17 @@ import org.springframework.context.annotation.Configuration;
 import java.util.Map;
 
 @Configuration
-@ConfigurationProperties("info")
-public class Dataset {
+@ConfigurationProperties("dataset")
+public class DiagnosisConfiguration {
 
     @Setter
-    private Map<String, Double> prices;
+    private Map<String, String> diagnosis;
 
     @Bean
-    public Map<String, Double> prices() {
-        return prices;
+    Map<String,String> diagnosisList() {
+        return diagnosis;
     }
+
+
 
 }
