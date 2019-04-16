@@ -22,11 +22,12 @@
       <module fileurl="file://$PROJECT_DIR$/web/marco/marco.iml" filepath="$PROJECT_DIR$/web/marco/marco.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/moreseencoder/morse/morse.iml" filepath="$PROJECT_DIR$/web/moreseencoder/morse/morse.iml" />
       <module fileurl="file://$PROJECT_DIR$/templating/moreseencoder/morse/morse (1).iml" filepath="$PROJECT_DIR$/templating/moreseencoder/morse/morse (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/data/mypersonaltodo/mypersonaltodo.iml" filepath="$PROJECT_DIR$/data/mypersonaltodo/mypersonaltodo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/todo/mypersonaltodo/mypersonaltodo.iml" filepath="$PROJECT_DIR$/data/todo/mypersonaltodo/mypersonaltodo.iml" />
       <module fileurl="file://$PROJECT_DIR$/data/phonebook/phonebook.iml" filepath="$PROJECT_DIR$/data/phonebook/phonebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/polo/polo.iml" filepath="$PROJECT_DIR$/web/polo/polo.iml" />
       <module fileurl="file://$PROJECT_DIR$/templating/themagic8ball/themagic8ball.iml" filepath="$PROJECT_DIR$/templating/themagic8ball/themagic8ball.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/pirates/tiadalma/tiadalma.iml" filepath="$PROJECT_DIR$/web/pirates/tiadalma/tiadalma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/todo/todo-ui/todo-ui.iml" filepath="$PROJECT_DIR$/data/todo/todo-ui/todo-ui.iml" />
       <module fileurl="file://$PROJECT_DIR$/data/twitter-board/twitter-board.iml" filepath="$PROJECT_DIR$/data/twitter-board/twitter-board.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/weather/weather-client/weather.iml" filepath="$PROJECT_DIR$/web/weather/weather-client/weather.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/weather/weather-sensor/weather-sensor.iml" filepath="$PROJECT_DIR$/web/weather/weather-sensor/weather-sensor.iml" />

@@ -34,6 +34,8 @@
         <option value="$PROJECT_DIR$/templating/moreseencoder/morse/pom.xml" />
         <option value="$PROJECT_DIR$/templating/moreseencoder/encoder/pom.xml" />
         <option value="$PROJECT_DIR$/templating/moreseencoder/erncoder-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/data/todo/todo-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/data/todo/mypersonaltodo/pom.xml" />
       </list>
     </option>
   </component>
