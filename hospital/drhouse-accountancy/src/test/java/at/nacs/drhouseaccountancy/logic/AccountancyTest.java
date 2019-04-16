@@ -1,15 +1,14 @@
 package at.nacs.drhouseaccountancy.logic;
 
 
-import at.nacs.drhouseaccountancy.persistence.InvoiceRepository;
-import at.nacs.drhouseaccountancy.persistence.PatientDTO;
-import at.nacs.drhouseaccountancy.persistence.PatientRepository;
+import at.nacs.drhouseaccountancy.persistence.repository.InvoiceRepository;
+import at.nacs.drhouseaccountancy.communication.dto.PatientDTO;
+import at.nacs.drhouseaccountancy.persistence.repository.PatientRepository;
 import lombok.Setter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.*;
 

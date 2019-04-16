@@ -29,6 +29,11 @@
         <option value="$PROJECT_DIR$/data/phonebook/pom.xml" />
         <option value="$PROJECT_DIR$/hospital/drhouse-pharmacy/pom.xml" />
         <option value="$PROJECT_DIR$/hospital/drhouse-accountancy/pom.xml" />
+        <option value="$PROJECT_DIR$/templates/themagic8ball/pom.xml" />
+        <option value="$PROJECT_DIR$/templating/themagic8ball/pom.xml" />
+        <option value="$PROJECT_DIR$/templating/moreseencoder/morse/pom.xml" />
+        <option value="$PROJECT_DIR$/templating/moreseencoder/encoder/pom.xml" />
+        <option value="$PROJECT_DIR$/templating/moreseencoder/erncoder-ui/pom.xml" />
       </list>
     </option>
   </component>

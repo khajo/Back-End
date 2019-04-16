@@ -1,9 +1,9 @@
 package at.nacs.drhouseaccountancy.logic;
 
-import at.nacs.drhouseaccountancy.persistence.Invoice;
-import at.nacs.drhouseaccountancy.persistence.Kind;
-import at.nacs.drhouseaccountancy.persistence.Patient;
-import at.nacs.drhouseaccountancy.persistence.PatientDTO;
+import at.nacs.drhouseaccountancy.persistence.domain.Invoice;
+import at.nacs.drhouseaccountancy.persistence.domain.Kind;
+import at.nacs.drhouseaccountancy.persistence.domain.Patient;
+import at.nacs.drhouseaccountancy.communication.dto.PatientDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -18,14 +18,14 @@ public class InvoiceCreator {
     private final CostManager costManager;
 
 
-    public Invoice creat(PatientDTO patientDTO, Patient patient) {
+    public Invoice create(PatientDTO patientDTO, Patient patient) {
         return Invoice.builder()
                 .patient(patient)
                 .kind(getKind(patientDTO))
                 .symptoms(patientDTO.getSymptoms())
                 .diagnosis(patientDTO.getDiagnosis())
                 .provided(getProvided(patientDTO))
-                .cost(costManager.setCost(patientDTO))
+                .cost(costManager.getCost(patientDTO))
                 .paid(false)
                 .timestamp(LocalDateTime.now())
                 .build();

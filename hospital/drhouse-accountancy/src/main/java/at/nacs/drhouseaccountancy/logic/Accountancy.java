@@ -1,6 +1,10 @@
 package at.nacs.drhouseaccountancy.logic;
 
-import at.nacs.drhouseaccountancy.persistence.*;
+import at.nacs.drhouseaccountancy.communication.dto.PatientDTO;
+import at.nacs.drhouseaccountancy.persistence.domain.Invoice;
+import at.nacs.drhouseaccountancy.persistence.domain.Patient;
+import at.nacs.drhouseaccountancy.persistence.repository.InvoiceRepository;
+import at.nacs.drhouseaccountancy.persistence.repository.PatientRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -17,17 +21,18 @@ public class Accountancy {
     private final InvoiceCreator invoiceCreator;
 
 
+    public Invoice invoice(PatientDTO patientDTO) {
+        Patient patient = savePatient(patientDTO);
+        Invoice invoice = invoiceCreator.create(patientDTO, patient);
+        return invoiceRepository.save(invoice);
+    }
 
-    public Patient savePatient(PatientDTO patientDTO) {
+    private Patient savePatient(PatientDTO patientDTO) {
+        // check first if the patient is there findingin by uuid
         Patient patient = patientCreator.creat(patientDTO);
         return patientRepository.save(patient);
     }
 
-
-    public Invoice saveInvoice(PatientDTO patientDTO) {
-        Invoice invoice = invoiceCreator.creat(patientDTO,savePatient(patientDTO));
-        return invoiceRepository.save(invoice);
-    }
 
     public void setAspaid(Long id) {
         Optional<Invoice> optionalInvoice = invoiceRepository.findById(id);

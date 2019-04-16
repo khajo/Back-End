@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>The Morse Encoder </title>
+    <link media="all" rel="stylesheet" th:href="@{/css/style.css}" type="text/css"/>
+</head>
+<body>
+
+<h1>Form Message</h1>
+<h2>Encoded text: <span th:text="${encoded}">Message that you sent</span></h2>
+
+<form method="post" th:action="@{/}" th:object="${plaintext}">
+    <label>Text to encode</label>
+    <input th:field="*{text}" type="text"/>
+    <p th:errors="*{text}" th:if="${#fields.hasErrors('text')}">Incorrect input</p>
+    <button type="submit">Encode the text</button>
+</form>
+
+</body>
+</html>
+
+
+
