@@ -1,7 +1,9 @@
-package at.nacs.drhouseadmission.domain;
+package at.nacs.administrationui;
 
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotEmpty;
 
@@ -11,7 +13,11 @@ import javax.validation.constraints.NotEmpty;
 public class Patient {
 
     private String id;
+
+    @NotEmpty
     private String name;
+
+    @NotEmpty
     private String symptoms;
 
 }

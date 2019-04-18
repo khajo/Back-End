@@ -36,6 +36,7 @@
         <option value="$PROJECT_DIR$/templating/moreseencoder/erncoder-ui/pom.xml" />
         <option value="$PROJECT_DIR$/data/todo/todo-ui/pom.xml" />
         <option value="$PROJECT_DIR$/data/todo/mypersonaltodo/pom.xml" />
+        <option value="$PROJECT_DIR$/hospital/drhouse-administration-ui/pom.xml" />
       </list>
     </option>
   </component>

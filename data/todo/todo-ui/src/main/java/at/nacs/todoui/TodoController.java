@@ -1,23 +1,24 @@
 package at.nacs.todoui;
 
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.ArrayList;
 import java.util.List;
 
+
+@RequiredArgsConstructor
+@RequestMapping("/")
+@Controller
 public class TodoController {
 
     private final TodoClient client;
 
-
     @ModelAttribute("todos")
     List<ToDo> todos() {
-        return todos;
+        return client.getAll();
     }
 
     @ModelAttribute("todo")
@@ -27,7 +28,7 @@ public class TodoController {
 
     @GetMapping
     String page() {
-        return "todos";
+        return "my-personal-todo-list-ui";
     }
 
     @PostMapping
@@ -35,14 +36,14 @@ public class TodoController {
         if (result.hasErrors()) {
             return page();
         }
-        todos.add(todo);
-        return "redirect:/cities";
+        client.save(todo);
+        return "redirect:/";
     }
 
-    @PostMapping("/delete")
-    String delete(@RequestParam String id) {
-        todos.removeIf(todo -> todo.getId().equals(id));
-        return "redirect:/todos";
+    @PostMapping("/done")
+    String put(@RequestParam String id) {
+        client.markAsDone(id);
+        return "redirect:/";
     }
 
 }

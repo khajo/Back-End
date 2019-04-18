@@ -2,30 +2,30 @@ package at.nacs.todoui;
 
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
-import org.springframework.web.util.pattern.PathPattern;
 
-import javax.print.DocFlavor;
 import java.util.Arrays;
 import java.util.List;
 
-@RestController
+@Service
 @RequiredArgsConstructor
 public class TodoClient {
     private final RestTemplate restTemplate;
+    private final String url = "http://localhost:9000/todos";
 
-
-
-    private String url;
-
-
-    List<ToDo> getAll() {
-        ToDo[] todos = restTemplate.getForObject(url, ToDo[].class);
-        return Arrays.asList(todos);
+    public List<ToDo> getAll() {
+        return Arrays.asList(restTemplate.getForObject(url, ToDo[].class));
     }
 
+    public ToDo save(ToDo todo) {
+        return restTemplate.postForObject(url, todo, ToDo.class);
 
+    }
 
+    public void markAsDone(String id) {
+        restTemplate.put(url + "/" + id + "/done", ToDo.class);
+    }
 
-}
+    }

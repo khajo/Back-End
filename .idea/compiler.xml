@@ -12,6 +12,7 @@
         <module name="drhouse-accountancy" />
         <module name="drhouse-pharmacy" />
         <module name="encoder" />
+        <module name="polo" />
         <module name="demo (1)" />
         <module name="twitter-board" />
         <module name="drhouse-diagnoses" />
@@ -21,12 +22,12 @@
         <module name="ex1-helloworld" />
         <module name="fengshui-api" />
         <module name="demo (3)" />
+        <module name="administration-ui" />
         <module name="jacksparrow" />
         <module name="todo-ui" />
-        <module name="polo" />
+        <module name="dutchman" />
         <module name="weather-sensor" />
         <module name="tiadalma" />
-        <module name="dutchman" />
         <module name="encoder (1)" />
         <module name="weather-server" />
         <module name="encoder-ui" />
@@ -39,6 +40,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="administration-ui" target="11" />
       <module name="cup" target="11" />
       <module name="demo" target="11" />
       <module name="demo (1)" target="11" />
@@ -74,6 +76,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="administration-ui" options="-parameters" />
       <module name="cup" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
