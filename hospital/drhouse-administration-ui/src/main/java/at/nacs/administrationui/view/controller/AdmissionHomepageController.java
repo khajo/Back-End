@@ -1,6 +1,8 @@
-package at.nacs.administrationui;
+package at.nacs.administrationui.view.controller;
 
 
+import at.nacs.administrationui.client.AdmissionClient;
+import at.nacs.administrationui.domain.Patient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -8,7 +10,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.mvc.support.RedirectAttributesModelMap;
 
 import javax.validation.Valid;
 

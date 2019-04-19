@@ -1,6 +1,7 @@
-package at.nacs.administrationui;
+package at.nacs.administrationui.client;
 
 
+import at.nacs.administrationui.domain.Patient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

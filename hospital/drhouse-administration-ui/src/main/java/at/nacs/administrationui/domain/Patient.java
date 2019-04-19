@@ -1,4 +1,4 @@
-package at.nacs.administrationui;
+package at.nacs.administrationui.domain;
 
 
 import lombok.AllArgsConstructor;
