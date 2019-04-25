@@ -1,0 +1,27 @@
+
+h2{
+    color: rebeccapurple;
+}
+
+body{
+font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.table-elements{
+
+}
+
+.the-shit {
+    display: flex;
+
+ align-items: center;
+    font-size: 100px;
+    background-color: blueviolet;
+}
+.id-elements {
+    color: brown;
+}

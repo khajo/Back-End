@@ -17,12 +17,15 @@
         <module name="twitter-board" />
         <module name="drhouse-diagnoses" />
         <module name="mypersonaltodo" />
+        <module name="example2" />
         <module name="cup" />
+        <module name="example" />
         <module name="morse" />
         <module name="ex1-helloworld" />
         <module name="fengshui-api" />
         <module name="demo (3)" />
         <module name="administration-ui" />
+        <module name="dead-men-tell-no-tales" />
         <module name="jacksparrow" />
         <module name="todo-ui" />
         <module name="dutchman" />
@@ -35,6 +38,8 @@
         <module name="drhouse-bed" />
         <module name="phonebook" />
         <module name="morse (1)" />
+        <module name="hotelroomsafe" />
+        <module name="thethievesden" />
         <module name="marco" />
         <module name="drhouse-admission" />
       </profile>
@@ -42,6 +47,7 @@
     <bytecodeTargetLevel>
       <module name="administration-ui" target="11" />
       <module name="cup" target="11" />
+      <module name="dead-men-tell-no-tales" target="11" />
       <module name="demo" target="11" />
       <module name="demo (1)" target="11" />
       <module name="demo (2)" target="11" />
@@ -56,7 +62,10 @@
       <module name="encoder (1)" target="11" />
       <module name="encoder-ui" target="11" />
       <module name="ex1-helloworld" target="11" />
+      <module name="example" target="11" />
+      <module name="example2" target="11" />
       <module name="fengshui-api" target="11" />
+      <module name="hotelroomsafe" target="11" />
       <module name="jacksparrow" target="11" />
       <module name="marco" target="11" />
       <module name="morse" target="11" />
@@ -65,6 +74,7 @@
       <module name="phonebook" target="11" />
       <module name="polo" target="11" />
       <module name="themagic8ball" target="11" />
+      <module name="thethievesden" target="11" />
       <module name="tiadalma" target="11" />
       <module name="todo-ui" target="11" />
       <module name="twitter-board" target="11" />
@@ -78,6 +88,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="administration-ui" options="-parameters" />
       <module name="cup" options="-parameters" />
+      <module name="dead-men-tell-no-tales" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
       <module name="demo (2)" options="-parameters" />
@@ -92,7 +103,10 @@
       <module name="encoder (1)" options="-parameters" />
       <module name="encoder-ui" options="-parameters" />
       <module name="ex1-helloworld" options="-parameters" />
+      <module name="example" options="-parameters" />
+      <module name="example2" options="-parameters" />
       <module name="fengshui-api" options="-parameters" />
+      <module name="hotelroomsafe" options="-parameters" />
       <module name="jacksparrow" options="-parameters" />
       <module name="marco" options="-parameters" />
       <module name="morse" options="-parameters" />
@@ -101,6 +115,7 @@
       <module name="phonebook" options="-parameters" />
       <module name="polo" options="-parameters" />
       <module name="themagic8ball" options="-parameters" />
+      <module name="thethievesden" options="-parameters" />
       <module name="tiadalma" options="-parameters" />
       <module name="todo-ui" options="-parameters" />
       <module name="twitter-board" options="-parameters" />

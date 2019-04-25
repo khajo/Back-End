@@ -14,7 +14,6 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class Invoice {
 
-
     private Long id;
 
     private Patient patient;

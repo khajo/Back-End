@@ -14,8 +14,6 @@ import java.util.List;
 public class InvoiceController {
     private final InvoiceClient invoiceClient;
 
-
-
     @ModelAttribute("invoices")
     List<Invoice> invoice() {
         return invoiceClient.getAllInvoises();

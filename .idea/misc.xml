@@ -37,6 +37,11 @@
         <option value="$PROJECT_DIR$/data/todo/todo-ui/pom.xml" />
         <option value="$PROJECT_DIR$/data/todo/mypersonaltodo/pom.xml" />
         <option value="$PROJECT_DIR$/hospital/drhouse-administration-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/security/example/pom.xml" />
+        <option value="$PROJECT_DIR$/security/example2/pom.xml" />
+        <option value="$PROJECT_DIR$/security/thethievesden/pom.xml" />
+        <option value="$PROJECT_DIR$/security/hotelroomsafe/pom.xml" />
+        <option value="$PROJECT_DIR$/security/dead-men-tell-no-tales/pom.xml" />
       </list>
     </option>
   </component>

@@ -8,15 +8,15 @@
     <link media="all" rel="stylesheet" th:href="@{/css/style.css}" type="text/css"/>
 
 
-
-
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
 </head>
 <body>
 
-<h2>Invoices</h2>
-<table>
-    <tr>
+<h2 class="the-shit">Invoices</h2>
+
+<table >
+    <tr class="table-elements">
         <th>id</th>
         <th>Name</th>
         <th>kind</th>
@@ -27,7 +27,7 @@
         <th>timestamp</th>
     </tr>
     <tr th:each="invoice : ${invoices}">
-        <td th:text="${invoice.id}">id</td>
+        <td  th:text="${invoice.id}">id</td>
         <td th:text="${invoice.patient.name}">name</td>
         <td th:text="${invoice.kind}">kind</td>
         <td th:text="${invoice.symptoms}">symptoms</td>
@@ -44,6 +44,10 @@
         <td th:if="${invoice.paid == true}">Done!</td>
     </tr>
 </table>
+
+<form method="post" th:action="@{/logout}">
+    <button>Sign Out</button>
+</form>
 
 </body>
 </html>
