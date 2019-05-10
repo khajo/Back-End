@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="example2" />
         <module name="weather" />
+        <module name="jacksparrow" />
         <module name="themagic8ball" />
         <module name="demo" />
         <module name="drhouse-accountancy" />
@@ -17,16 +19,14 @@
         <module name="twitter-board" />
         <module name="drhouse-diagnoses" />
         <module name="mypersonaltodo" />
-        <module name="example2" />
+        <module name="dead-men-tell-no-tales" />
         <module name="cup" />
-        <module name="example" />
         <module name="morse" />
         <module name="ex1-helloworld" />
         <module name="fengshui-api" />
         <module name="demo (3)" />
         <module name="administration-ui" />
-        <module name="dead-men-tell-no-tales" />
-        <module name="jacksparrow" />
+        <module name="example" />
         <module name="todo-ui" />
         <module name="dutchman" />
         <module name="weather-sensor" />
@@ -38,6 +38,7 @@
         <module name="drhouse-bed" />
         <module name="phonebook" />
         <module name="morse (1)" />
+        <module name="chef-recipes" />
         <module name="hotelroomsafe" />
         <module name="thethievesden" />
         <module name="marco" />
@@ -46,6 +47,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="administration-ui" target="11" />
+      <module name="chef-recipes" target="11" />
       <module name="cup" target="11" />
       <module name="dead-men-tell-no-tales" target="11" />
       <module name="demo" target="11" />
@@ -87,6 +89,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="administration-ui" options="-parameters" />
+      <module name="chef-recipes" options="-parameters" />
       <module name="cup" options="-parameters" />
       <module name="dead-men-tell-no-tales" options="-parameters" />
       <module name="demo" options="-parameters" />

@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/leChef?useSSL=false
+    username: nacsuser
+    password: nacs
+  jpa:
+    hibernate:
+      ddl-auto: update

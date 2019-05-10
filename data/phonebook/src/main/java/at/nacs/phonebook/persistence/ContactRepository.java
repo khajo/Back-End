@@ -1,6 +1,5 @@
 package at.nacs.phonebook.persistence;
 
-import at.nacs.phonebook.persistence.Contact;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

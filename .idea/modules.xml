@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Back-End-i4.iml" filepath="$PROJECT_DIR$/Back-End-i4.iml" />
       <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-administration-ui/administration-ui.iml" filepath="$PROJECT_DIR$/hospital/drhouse-administration-ui/administration-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/le-chef/chef-recipes/chef-recipes.iml" filepath="$PROJECT_DIR$/le-chef/chef-recipes/chef-recipes.iml" />
       <module fileurl="file://$PROJECT_DIR$/thethreecupshuffle/cup/cup.iml" filepath="$PROJECT_DIR$/thethreecupshuffle/cup/cup.iml" />
       <module fileurl="file://$PROJECT_DIR$/security/dead-men-tell-no-tales/dead-men-tell-no-tales.iml" filepath="$PROJECT_DIR$/security/dead-men-tell-no-tales/dead-men-tell-no-tales.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflectionweek3/demo (1).iml" filepath="$PROJECT_DIR$/reflectionweek3/demo (1).iml" />
