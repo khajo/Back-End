@@ -1,4 +1,4 @@
-package at.nacs.chefrecipes.persistence;
+package at.nacs.chefrecipes.persistence.demo;
 
 
 import lombok.Data;

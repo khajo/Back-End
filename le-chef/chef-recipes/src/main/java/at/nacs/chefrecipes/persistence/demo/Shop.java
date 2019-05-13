@@ -1,4 +1,4 @@
-package at.nacs.chefrecipes.persistence;
+package at.nacs.chefrecipes.persistence.demo;
 
 
 import lombok.Data;
@@ -9,19 +9,23 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
 @Data
-public class Person {
+@Entity
+public class Shop {
 
 
     @Id
     @GeneratedValue
     private Long id;
 
-    @Column(unique = true)
-    private String userName;
-
     @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(cascade = CascadeType.ALL)
     private List<Ingredient> ingredients = new ArrayList<>();
+
+    @OneToOne(cascade = CascadeType.ALL)
+    private User user;
+
+
+
+
 }
