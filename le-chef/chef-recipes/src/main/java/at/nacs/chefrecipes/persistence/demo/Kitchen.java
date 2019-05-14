@@ -22,7 +22,7 @@ public class Kitchen {
     @OneToMany(cascade = CascadeType.ALL)
     private List<Ingredient> ingredients = new ArrayList<>();
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne
     private User user;
 
 

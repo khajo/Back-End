@@ -6,5 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface KitchenRepository  extends JpaRepository<Kitchen,Long> {
 
 
-    public Kitchen findAllByUserId(Long id);
+    Kitchen findByUser_UserName(String userName);
 }

@@ -16,11 +16,24 @@ public class KitchenManager {
     private final KitchenRepository kitchenRepository;
 
 
-    public Kitchen addIngredients(Ingredient ingredient, Long id) {
-        Kitchen kitchen = kitchenRepository.findAllByUserId(id);
+    public void addIngredients(Ingredient ingredient, String userName) {
+        Kitchen kitchen = getKitchenByUserName(userName);
         List<Ingredient> ingredients = kitchen.getIngredients();
-        ingredients.add(ingredient);
-        return kitchenRepository.save(kitchen);
+        ingredients.remove(ingredient);
+         kitchenRepository.save(kitchen);
     }
+
+    public Kitchen getKitchenByUserName(String userName) {
+        return kitchenRepository.findByUser_UserName(userName);
+    }
+
+    public Kitchen addKitchen(Kitchen kitchen) {
+     return    kitchenRepository.save(kitchen);
+    }
+
+    public List<Kitchen> getAll() {
+        return kitchenRepository.findAll();
+    }
+
 
 }

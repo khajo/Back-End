@@ -7,6 +7,8 @@ import at.nacs.chefrecipes.persistence.demo.Kitchen;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/kitchen")
@@ -15,14 +17,19 @@ public class KitchenEndpoint {
     private final KitchenManager kitchenManager;
 
 
-    @PostMapping("/{id}")
-    public Kitchen post(@RequestBody Ingredient ingredient, @PathVariable Long id) {
-        return kitchenManager.addIngredients(ingredient, id);
+    @PostMapping
+    public Kitchen post(@RequestBody Kitchen kitchen) {
+        return kitchenManager.addKitchen(kitchen);
     }
 
-//    @PutMapping("/{id}/{ingredient}")
-//    public void addIngredient(@PathVariable long id, @RequestBody Ingredient ingredient) {
-//        userManager.addIngredient(id, ingredient);
-//    }
+    @PutMapping("/{userName}")
+    public void addIngredient(@PathVariable String userName, @RequestBody Ingredient ingredient) {
+        kitchenManager.addIngredients(ingredient,userName);
+    }
+
+    @GetMapping
+    public List<Kitchen> getAllKitchen() {
+        return kitchenManager.getAll();
+    }
 
 }

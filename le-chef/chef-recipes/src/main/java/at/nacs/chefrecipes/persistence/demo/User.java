@@ -20,7 +20,6 @@ public class User {
     @Column(unique = true)
     private String userName;
 
-
     private String password;
 
 //    @LazyCollection(LazyCollectionOption.FALSE)
