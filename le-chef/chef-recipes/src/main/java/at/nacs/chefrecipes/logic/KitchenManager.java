@@ -1,8 +1,8 @@
 package at.nacs.chefrecipes.logic;
 
 
-import at.nacs.chefrecipes.persistence.demo.Ingredient;
-import at.nacs.chefrecipes.persistence.demo.Kitchen;
+import at.nacs.chefrecipes.persistence.data.Ingredient;
+import at.nacs.chefrecipes.persistence.data.Kitchen;
 import at.nacs.chefrecipes.persistence.repository.KitchenRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
