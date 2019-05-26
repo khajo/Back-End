@@ -1,7 +1,7 @@
 package at.nacs.chefrecipes.logic;
 
 
-import at.nacs.chefrecipes.persistence.demo.Recipe;
+import at.nacs.chefrecipes.persistence.data.Recipe;
 import at.nacs.chefrecipes.persistence.repository.RecipeRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

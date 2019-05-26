@@ -1,7 +1,7 @@
 package at.nacs.chefrecipes.configuration;
 
 
-import at.nacs.chefrecipes.persistence.demo.Recipe;
+import at.nacs.chefrecipes.persistence.data.Recipe;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;

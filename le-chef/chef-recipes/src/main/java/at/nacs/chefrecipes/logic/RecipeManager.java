@@ -1,7 +1,8 @@
 package at.nacs.chefrecipes.logic;
 
 
-import at.nacs.chefrecipes.persistence.demo.Recipe;
+import at.nacs.chefrecipes.persistence.data.Ingredient;
+import at.nacs.chefrecipes.persistence.data.Recipe;
 import at.nacs.chefrecipes.persistence.repository.RecipeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -28,5 +29,9 @@ public class RecipeManager {
 
     public List<Recipe> getRecipeByOrigin(String origin) {
         return recipeRepository.findByOrigin(origin);
+    }
+
+    public List<Recipe> recipeRecommendations(List<Ingredient> ingredients) {
+        return recipeRepository.findAllByIngredients(ingredients);
     }
 }

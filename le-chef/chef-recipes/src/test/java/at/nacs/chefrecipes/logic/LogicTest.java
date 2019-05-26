@@ -1,8 +1,8 @@
 package at.nacs.chefrecipes.logic;
 
-import at.nacs.chefrecipes.persistence.demo.Kitchen;
-import at.nacs.chefrecipes.persistence.demo.Recipe;
-import at.nacs.chefrecipes.persistence.demo.User;
+import at.nacs.chefrecipes.persistence.data.Kitchen;
+import at.nacs.chefrecipes.persistence.data.Recipe;
+import at.nacs.chefrecipes.persistence.data.User;
 import at.nacs.chefrecipes.persistence.repository.KitchenRepository;
 import at.nacs.chefrecipes.persistence.repository.RecipeRepository;
 import at.nacs.chefrecipes.persistence.repository.UserRepository;
@@ -11,7 +11,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.Collections;
 import java.util.List;
 
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.NONE;
@@ -32,7 +31,6 @@ class LogicTest {
 
     @Autowired
     private KitchenManager kitchenManager;
-
 
 
     @Autowired
@@ -70,7 +68,7 @@ class LogicTest {
 //
 //
 //        System.out.println(this.recipes);
-      kitchens.stream().map(e->e.getUser()).forEach(e-> System.out.println(e));
+        kitchens.stream().map(e -> e.getUser()).forEach(e -> System.out.println(e));
         System.out.println(users);
     }
 }

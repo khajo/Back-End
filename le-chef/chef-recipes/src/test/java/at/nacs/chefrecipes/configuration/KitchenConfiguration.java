@@ -1,7 +1,7 @@
 package at.nacs.chefrecipes.configuration;
 
 
-import at.nacs.chefrecipes.persistence.demo.Kitchen;
+import at.nacs.chefrecipes.persistence.data.Kitchen;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -18,7 +18,7 @@ public class KitchenConfiguration {
     private List<Kitchen> kitchens;
 
     @Bean
-    List<Kitchen>kitchens() {
+    List<Kitchen> kitchens() {
         return kitchens;
     }
 

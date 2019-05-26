@@ -3,7 +3,8 @@ package at.nacs.chefrecipes.communication;
 
 import at.nacs.chefrecipes.logic.Logic;
 import at.nacs.chefrecipes.logic.RecipeManager;
-import at.nacs.chefrecipes.persistence.demo.Recipe;
+import at.nacs.chefrecipes.persistence.data.Ingredient;
+import at.nacs.chefrecipes.persistence.data.Recipe;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -42,4 +43,11 @@ public class RecipeEndpoint {
     public List<Recipe> getRecommendations(@PathVariable String userName) {
         return logic.recipeRecommendations(userName);
     }
+
+    @GetMapping("/recipes/ingredients")
+    public List<Recipe> getByIngredients(@RequestBody List<Ingredient> ingredients) {
+        return recipeManager.recipeRecommendations(ingredients);
+
+    }
+
 }

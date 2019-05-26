@@ -1,8 +1,7 @@
 package at.nacs.chefrecipes.communication;
 
 
-import at.nacs.chefrecipes.persistence.demo.Ingredient;
-import at.nacs.chefrecipes.persistence.demo.User;
+import at.nacs.chefrecipes.persistence.data.User;
 import at.nacs.chefrecipes.logic.UserManager;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

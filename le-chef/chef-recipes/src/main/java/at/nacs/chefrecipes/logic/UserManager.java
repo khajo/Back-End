@@ -1,14 +1,10 @@
 package at.nacs.chefrecipes.logic;
 
 
-import at.nacs.chefrecipes.persistence.demo.Ingredient;
-import at.nacs.chefrecipes.persistence.demo.User;
+import at.nacs.chefrecipes.persistence.data.User;
 import at.nacs.chefrecipes.persistence.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
-import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
