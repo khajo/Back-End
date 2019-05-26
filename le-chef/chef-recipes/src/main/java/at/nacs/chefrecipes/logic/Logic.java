@@ -19,21 +19,14 @@ public class Logic {
     private final KitchenManager kitchenManager;
 
 
-
     public List<Recipe> recipeRecommendations(String userName) {
         List<Recipe> recipes = recipeManager.getRecipes();
         Kitchen kitchenByUserName = kitchenManager.getKitchenByUserName(userName);
         List<Ingredient> ingredients = kitchenByUserName.getIngredients();
-        List<Ingredient> allMöglichkeiten = getAllMöglichkeiten(ingredients);
-
-
-        return null;
-    }
-
-    private List<Ingredient> getAllMöglichkeiten(List<Ingredient> ingredients) {
-        return IntStream.rangeClosed(ingredients.size())
-                .mapToObj(e->ingredients.remove(e))
+        return recipes.stream()
+                .filter(e -> e.getIngredients().containsAll(ingredients))
                 .collect(Collectors.toList());
     }
+
 
 }

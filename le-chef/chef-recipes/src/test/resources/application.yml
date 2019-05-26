@@ -1,0 +1,89 @@
+dataset:
+  recipes:
+    -
+      ingredients:
+        -
+          amount: 150
+          amountMeasuringUnit: gram
+          name: Rind
+        -
+          amount: 3
+          amountMeasuringUnit: slide
+          name: tomato
+      label:
+        - meat
+        - red
+      name: ShawurmaRind
+      origin: "Armenian"
+      typ: sandwich
+    -
+      ingredients:
+        -
+          amount: 100
+          amountMeasuringUnit: gram
+          name: chicken
+        -
+          amount: 3
+          amountMeasuringUnit: slide
+          name: tomato
+      label:
+        - vegan
+        - meat
+        - red
+      name: Shawurma
+      origin: "middle east"
+      typ: sandwich
+
+    - ingredients:
+        - amount: 10
+          amountMeasuringUnit: gram
+          name: hummus
+        - amount: 3
+          amountMeasuringUnit: slide
+          name: tomato
+      label:
+        - vegan
+      name: flafel
+      origin: "middle east"
+      typ: sandwich
+
+dataset2:
+  kitchens:
+    -
+      ingredients:
+        -
+          amount: 100
+          amountMeasuringUnit: gram
+          name: chicken
+        -
+          amount: 3
+          amountMeasuringUnit: slide
+          name: tomato
+      user:
+        -
+          password: 123456asdf
+          userName: khajag
+    -
+      ingredients:
+        -
+          amount: 150
+          amountMeasuringUnit: gram
+          name: rind
+        -
+          amount: 3
+          amountMeasuringUnit: slide
+          name: potato
+      user:
+        -
+          password: 123456a
+          userName: apig
+
+
+dataset3:
+  users:
+      password: 123456a
+      userName: khajag
+
+
+
+

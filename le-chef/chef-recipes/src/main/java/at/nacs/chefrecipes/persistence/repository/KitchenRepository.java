@@ -7,4 +7,5 @@ public interface KitchenRepository  extends JpaRepository<Kitchen,Long> {
 
 
     Kitchen findByUser_UserName(String userName);
+
 }

@@ -1,6 +1,7 @@
 package at.nacs.chefrecipes.communication;
 
 
+import at.nacs.chefrecipes.logic.Logic;
 import at.nacs.chefrecipes.logic.RecipeManager;
 import at.nacs.chefrecipes.persistence.demo.Recipe;
 import lombok.RequiredArgsConstructor;
@@ -13,6 +14,7 @@ import java.util.List;
 public class RecipeEndpoint {
 
     private final RecipeManager recipeManager;
+    private final Logic logic;
 
     @GetMapping("/recipes")
     public List<Recipe> getRecipes() {
@@ -33,5 +35,11 @@ public class RecipeEndpoint {
     @GetMapping("/origin/{origin}")
     public List<Recipe> getByOrigin(@PathVariable String origin) {
         return recipeManager.getRecipeByOrigin(origin);
+    }
+
+
+    @GetMapping("/recipe/{userName}")
+    public List<Recipe> getRecommendations(@PathVariable String userName) {
+        return logic.recipeRecommendations(userName);
     }
 }
