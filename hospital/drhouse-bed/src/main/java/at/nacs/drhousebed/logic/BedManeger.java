@@ -1,9 +1,9 @@
 package at.nacs.drhousebed.logic;
 
 
-import at.nacs.drhousebed.communication.AccountancyClient;
-import at.nacs.drhousebed.persistence.BedRepository;
-import at.nacs.drhousebed.persistence.Patient;
+import at.nacs.drhousebed.communication.client.AccountancyClient;
+import at.nacs.drhousebed.persistence.repository.BedRepository;
+import at.nacs.drhousebed.persistence.domain.Patient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

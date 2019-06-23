@@ -4,7 +4,6 @@ package at.nacs.drhouseaccountancy.communication.dto;
 import lombok.Data;
 
 @Data
-
 public class PatientDTO {
     private String id;
     private String name;

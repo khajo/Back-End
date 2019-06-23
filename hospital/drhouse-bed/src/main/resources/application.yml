@@ -8,3 +8,8 @@ info:
   treatments:
     getrest: 3daysREst
     heartattack: operation
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/drhouse-beds

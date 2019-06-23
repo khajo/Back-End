@@ -1,7 +1,9 @@
 package at.nacs.drhousediagnoses.communication;
 
+import at.nacs.drhousediagnoses.communication.client.BedClient;
+import at.nacs.drhousediagnoses.communication.client.PharmacyClient;
 import at.nacs.drhousediagnoses.logic.DiagnosesManager;
-import at.nacs.drhousediagnoses.persistence.Patient;
+import at.nacs.drhousediagnoses.communication.dto.Patient;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.mockito.Mockito;

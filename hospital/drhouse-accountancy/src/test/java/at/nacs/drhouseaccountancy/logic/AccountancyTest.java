@@ -1,62 +1,37 @@
 package at.nacs.drhouseaccountancy.logic;
 
-
-import at.nacs.drhouseaccountancy.persistence.repository.InvoiceRepository;
 import at.nacs.drhouseaccountancy.communication.dto.PatientDTO;
-import at.nacs.drhouseaccountancy.persistence.repository.PatientRepository;
-import lombok.Setter;
-import org.junit.jupiter.api.BeforeEach;
+import at.nacs.drhouseaccountancy.persistence.domain.Patient;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
 
-import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.*;
-
+import static org.mockito.Mockito.*;
+import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.NONE;
 
 @SpringBootTest(webEnvironment = NONE)
 class AccountancyTest {
 
+  @Autowired
+  Accountancy accountancy;
 
-    @Autowired
-    InvoiceRepository invoiceRepository;
+  @MockBean
+  Patients patients;
 
+  @MockBean
+  Invoices invoices;
 
-    @Autowired
-    PatientRepository patientRepository;
+  @Autowired
+  PatientDTO patientDtoTreatment;
 
-    @Autowired
-    Accountancy accountancy;
+  @Test
+  void invoice() {
+    when(patients.findOrCreate(patientDtoTreatment)).thenReturn(new Patient());
 
+    accountancy.invoice(patientDtoTreatment);
 
-    @Setter
-    PatientDTO patientDTO;
-
-    @Setter
-    PatientDTO patientDTOSpecial;
-
-
-
-    @BeforeEach
-    void before() {
-        patientRepository.deleteAll();
-        invoiceRepository.deleteAll();
-    }
-
-
-    @Test
-
-    void savePatient() {
-    }
-
-    @Test
-    void saveInvoice() {
-    }
-
-    @Test
-    void setAspaid() {
-    }
-
-    @Test
-    void invoices() {
-    }
+    verify(patients).findOrCreate(patientDtoTreatment);
+    verify(invoices).invoice(any(Patient.class), any(PatientDTO.class));
+  }
 }

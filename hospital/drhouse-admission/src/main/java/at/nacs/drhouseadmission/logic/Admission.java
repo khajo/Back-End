@@ -1,6 +1,6 @@
 package at.nacs.drhouseadmission.logic;
 
-import at.nacs.drhouseadmission.domain.Patient;
+import at.nacs.drhouseadmission.communication.dto.Patient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

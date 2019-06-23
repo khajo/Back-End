@@ -9,3 +9,8 @@ info:
  medicaments:
    Migraine: Migrainemedicament
    cold: coldmedicament
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/drhouse-pharmacy

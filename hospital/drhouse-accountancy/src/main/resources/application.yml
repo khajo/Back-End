@@ -9,10 +9,16 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-
-info:
+accountancy:
   prices:
-    Migrainemedicament: 120
-    coldmedicament: 40
-    3daysREst: 1220
-    operation: 440
+    - provided: Migrainemedicament
+      price: 120
+    - provided: coldmedicament
+      price: 40
+    - provided: 3 days Rest
+      price: 120
+    - provided: 3 days in bed
+      price: 20
+    - provided: operation
+      price: 440
+

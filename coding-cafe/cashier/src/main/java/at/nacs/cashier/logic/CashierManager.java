@@ -3,6 +3,7 @@ package at.nacs.cashier.logic;
 
 import at.nacs.cashier.persistance.domain.BaristaClient;
 import at.nacs.cashier.persistance.domain.Purchase;
+import at.nacs.cashier.persistance.domain.Ticket;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -15,8 +16,10 @@ public class CashierManager {
   private final OrderIssuer orderIssuer;
   private final BaristaClient baristaClient;
   private final PurchaseIssuer purchaseIssuer;
+  private final TicketManager ticketManager;
 
   public void manage(List<String> items) {
+    Ticket ticket = ticketManager.save(items);
     Purchase purchase = purchaseIssuer.issue(items);
     sendEachOrder(purchase);
   }

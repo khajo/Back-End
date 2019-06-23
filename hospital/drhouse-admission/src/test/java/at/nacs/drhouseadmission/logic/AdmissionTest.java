@@ -1,7 +1,7 @@
 package at.nacs.drhouseadmission.logic;
 
-import at.nacs.drhouseadmission.communication.DiagnosesClient;
-import at.nacs.drhouseadmission.domain.Patient;
+import at.nacs.drhouseadmission.communication.client.DiagnosesClient;
+import at.nacs.drhouseadmission.communication.dto.Patient;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

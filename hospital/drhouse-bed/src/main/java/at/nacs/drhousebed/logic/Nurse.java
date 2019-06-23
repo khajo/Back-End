@@ -1,7 +1,7 @@
 package at.nacs.drhousebed.logic;
 
 
-import at.nacs.drhousebed.persistence.Patient;
+import at.nacs.drhousebed.persistence.domain.Patient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

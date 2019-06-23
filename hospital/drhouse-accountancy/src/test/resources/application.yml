@@ -1,18 +1,47 @@
-server:
-  port: 9005
-
-spring:
-  datasource:
-    url: jdbc:mysql://localhost/drhouse-accountancy?useSSL=false
-    username: nacsuser
-    password: nacs
-  jpa:
-    hibernate:
-      ddl-auto: update
-
-info:
+accountancy:
   prices:
-    Migrainemedicament: 120
-    coldmedicament: 40
-    3daysREst: 1220
-    operation: 440
+    - provided: sleep and rest
+      price: 10
+    - provided: antihistamines
+      price: 20
+
+test-patients:
+  patient-dto-treatment:
+    id: 123abc
+    name: Mr. Test
+    symptoms: fever
+    diagnosis: virus
+    treatment: sleep and rest
+  patient-dto-medicine:
+    id: 123abc
+    name: Mr. Test
+    symptoms: sneezing
+    diagnosis: alergy
+    medicine: antihistamines
+  patient:
+    uuid: 123abc
+    name: Mr. Test
+
+test-invoices:
+  invoice-treatment:
+    kind: TREATMENT
+    patient:
+      uuid: 123abc
+      name: Mr. Test
+    symptoms: fever
+    diagnosis: virus
+    provided: sleep and rest
+    cost: 10.0
+    paid: false
+    timestamp: 2000-01-01 11:11:11
+  invoice-medicine:
+    kind: MEDICINE
+    patient:
+      uuid: 123abc
+      name: Mr. Test
+    symptoms: sneezing
+    diagnosis: alergy
+    provided: antihistamines
+    cost: 20.0
+    paid: false
+    timestamp: 2000-01-01 11:11:11

@@ -1,8 +1,8 @@
 package at.nacs.drhousepharmacy.logic;
 
-import at.nacs.drhousepharmacy.communication.AccountancyClient;
-import at.nacs.drhousepharmacy.persistence.Patient;
-import at.nacs.drhousepharmacy.persistence.PharmacyRepository;
+import at.nacs.drhousepharmacy.communication.client.AccountancyClient;
+import at.nacs.drhousepharmacy.persistence.domain.Patient;
+import at.nacs.drhousepharmacy.persistence.repository.PharmacyRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

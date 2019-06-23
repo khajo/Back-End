@@ -4,75 +4,43 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Back-End-i4.iml" filepath="$PROJECT_DIR$/Back-End-i4.iml" />
       <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-administration-ui/administration-ui.iml" filepath="$PROJECT_DIR$/hospital/drhouse-administration-ui/administration-ui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-administration-ui/administration-ui.iml" filepath="$PROJECT_DIR$/hospital/drhouse-administration-ui/administration-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coding-cafe/cashier/cashier.iml" filepath="$PROJECT_DIR$/coding-cafe/cashier/cashier.iml" />
       <module fileurl="file://$PROJECT_DIR$/le-chef/chef-recipes/chef-recipes.iml" filepath="$PROJECT_DIR$/le-chef/chef-recipes/chef-recipes.iml" />
       <module fileurl="file://$PROJECT_DIR$/thethreecupshuffle/cup/cup.iml" filepath="$PROJECT_DIR$/thethreecupshuffle/cup/cup.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thethreecupshuffle/cup/cup.iml" filepath="$PROJECT_DIR$/thethreecupshuffle/cup/cup.iml" />
-      <module fileurl="file://$PROJECT_DIR$/security/dead-men-tell-no-tales/dead-men-tell-no-tales.iml" filepath="$PROJECT_DIR$/security/dead-men-tell-no-tales/dead-men-tell-no-tales.iml" />
       <module fileurl="file://$PROJECT_DIR$/security/dead-men-tell-no-tales/dead-men-tell-no-tales.iml" filepath="$PROJECT_DIR$/security/dead-men-tell-no-tales/dead-men-tell-no-tales.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflectionweek3/demo (1).iml" filepath="$PROJECT_DIR$/reflectionweek3/demo (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/reflectionweek3/demo (1).iml" filepath="$PROJECT_DIR$/reflectionweek3/demo (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/thethreecupshuffle/trickster/demo (2).iml" filepath="$PROJECT_DIR$/thethreecupshuffle/trickster/demo (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/thethreecupshuffle/trickster/demo (2).iml" filepath="$PROJECT_DIR$/thethreecupshuffle/trickster/demo (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/web/marathon-server/demo (3).iml" filepath="$PROJECT_DIR$/web/marathon-server/demo (3).iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/marathon-server/demo (3).iml" filepath="$PROJECT_DIR$/web/marathon-server/demo (3).iml" />
-      <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-accountancy/drhouse-accountancy.iml" filepath="$PROJECT_DIR$/hospital/drhouse-accountancy/drhouse-accountancy.iml" />
       <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-accountancy/drhouse-accountancy.iml" filepath="$PROJECT_DIR$/hospital/drhouse-accountancy/drhouse-accountancy.iml" />
       <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-admission/drhouse-admission.iml" filepath="$PROJECT_DIR$/hospital/drhouse-admission/drhouse-admission.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-admission/drhouse-admission.iml" filepath="$PROJECT_DIR$/hospital/drhouse-admission/drhouse-admission.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-bed/drhouse-bed.iml" filepath="$PROJECT_DIR$/hospital/drhouse-bed/drhouse-bed.iml" />
       <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-bed/drhouse-bed.iml" filepath="$PROJECT_DIR$/hospital/drhouse-bed/drhouse-bed.iml" />
       <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-diagnoses/drhouse-diagnoses.iml" filepath="$PROJECT_DIR$/hospital/drhouse-diagnoses/drhouse-diagnoses.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-diagnoses/drhouse-diagnoses.iml" filepath="$PROJECT_DIR$/hospital/drhouse-diagnoses/drhouse-diagnoses.iml" />
       <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-pharmacy/drhouse-pharmacy.iml" filepath="$PROJECT_DIR$/hospital/drhouse-pharmacy/drhouse-pharmacy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hospital/drhouse-pharmacy/drhouse-pharmacy.iml" filepath="$PROJECT_DIR$/hospital/drhouse-pharmacy/drhouse-pharmacy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/pirates/dutchman/dutchman.iml" filepath="$PROJECT_DIR$/web/pirates/dutchman/dutchman.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/pirates/dutchman/dutchman.iml" filepath="$PROJECT_DIR$/web/pirates/dutchman/dutchman.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/moreseencoder/encoder/encoder.iml" filepath="$PROJECT_DIR$/web/moreseencoder/encoder/encoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/templating/moreseencoder/encoder/encoder (1).iml" filepath="$PROJECT_DIR$/templating/moreseencoder/encoder/encoder (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/templating/moreseencoder/encoder/encoder (1).iml" filepath="$PROJECT_DIR$/templating/moreseencoder/encoder/encoder (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/web/moreseencoder/encoder/encoder (2).iml" filepath="$PROJECT_DIR$/web/moreseencoder/encoder/encoder (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/templating/moreseencoder/erncoder-ui/encoder-ui.iml" filepath="$PROJECT_DIR$/templating/moreseencoder/erncoder-ui/encoder-ui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/templating/moreseencoder/erncoder-ui/encoder-ui.iml" filepath="$PROJECT_DIR$/templating/moreseencoder/erncoder-ui/encoder-ui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ex1-helloworld/ex1-helloworld.iml" filepath="$PROJECT_DIR$/ex1-helloworld/ex1-helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex1-helloworld/ex1-helloworld.iml" filepath="$PROJECT_DIR$/ex1-helloworld/ex1-helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/security/example/example.iml" filepath="$PROJECT_DIR$/security/example/example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/security/example/example.iml" filepath="$PROJECT_DIR$/security/example/example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/security/example2/example2.iml" filepath="$PROJECT_DIR$/security/example2/example2.iml" />
       <module fileurl="file://$PROJECT_DIR$/security/example2/example2.iml" filepath="$PROJECT_DIR$/security/example2/example2.iml" />
       <module fileurl="file://$PROJECT_DIR$/thefengshuicompatibility/fengshui-api.iml" filepath="$PROJECT_DIR$/thefengshuicompatibility/fengshui-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thefengshuicompatibility/fengshui-api.iml" filepath="$PROJECT_DIR$/thefengshuicompatibility/fengshui-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/security/hotelroomsafe/hotelroomsafe.iml" filepath="$PROJECT_DIR$/security/hotelroomsafe/hotelroomsafe.iml" />
       <module fileurl="file://$PROJECT_DIR$/security/hotelroomsafe/hotelroomsafe.iml" filepath="$PROJECT_DIR$/security/hotelroomsafe/hotelroomsafe.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/pirates/jacksparrow/jacksparrow.iml" filepath="$PROJECT_DIR$/web/pirates/jacksparrow/jacksparrow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/pirates/jacksparrow/jacksparrow.iml" filepath="$PROJECT_DIR$/web/pirates/jacksparrow/jacksparrow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/marco/marco.iml" filepath="$PROJECT_DIR$/web/marco/marco.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/marco/marco.iml" filepath="$PROJECT_DIR$/web/marco/marco.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/moreseencoder/morse/morse.iml" filepath="$PROJECT_DIR$/web/moreseencoder/morse/morse.iml" />
       <module fileurl="file://$PROJECT_DIR$/templating/moreseencoder/morse/morse (1).iml" filepath="$PROJECT_DIR$/templating/moreseencoder/morse/morse (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/templating/moreseencoder/morse/morse (1).iml" filepath="$PROJECT_DIR$/templating/moreseencoder/morse/morse (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/web/moreseencoder/morse/morse (2).iml" filepath="$PROJECT_DIR$/web/moreseencoder/morse/morse (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/data/todo/mypersonaltodo/mypersonaltodo.iml" filepath="$PROJECT_DIR$/data/todo/mypersonaltodo/mypersonaltodo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/data/todo/mypersonaltodo/mypersonaltodo.iml" filepath="$PROJECT_DIR$/data/todo/mypersonaltodo/mypersonaltodo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/data/phonebook/phonebook.iml" filepath="$PROJECT_DIR$/data/phonebook/phonebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/data/phonebook/phonebook.iml" filepath="$PROJECT_DIR$/data/phonebook/phonebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/polo/polo.iml" filepath="$PROJECT_DIR$/web/polo/polo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/polo/polo.iml" filepath="$PROJECT_DIR$/web/polo/polo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/templating/themagic8ball/themagic8ball.iml" filepath="$PROJECT_DIR$/templating/themagic8ball/themagic8ball.iml" />
       <module fileurl="file://$PROJECT_DIR$/templating/themagic8ball/themagic8ball.iml" filepath="$PROJECT_DIR$/templating/themagic8ball/themagic8ball.iml" />
       <module fileurl="file://$PROJECT_DIR$/security/thethievesden/thethievesden.iml" filepath="$PROJECT_DIR$/security/thethievesden/thethievesden.iml" />
-      <module fileurl="file://$PROJECT_DIR$/security/thethievesden/thethievesden.iml" filepath="$PROJECT_DIR$/security/thethievesden/thethievesden.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/pirates/tiadalma/tiadalma.iml" filepath="$PROJECT_DIR$/web/pirates/tiadalma/tiadalma.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/pirates/tiadalma/tiadalma.iml" filepath="$PROJECT_DIR$/web/pirates/tiadalma/tiadalma.iml" />
       <module fileurl="file://$PROJECT_DIR$/data/todo/todo-ui/todo-ui.iml" filepath="$PROJECT_DIR$/data/todo/todo-ui/todo-ui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/data/todo/todo-ui/todo-ui.iml" filepath="$PROJECT_DIR$/data/todo/todo-ui/todo-ui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/data/twitter-board/twitter-board.iml" filepath="$PROJECT_DIR$/data/twitter-board/twitter-board.iml" />
       <module fileurl="file://$PROJECT_DIR$/data/twitter-board/twitter-board.iml" filepath="$PROJECT_DIR$/data/twitter-board/twitter-board.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/weather/weather-client/weather.iml" filepath="$PROJECT_DIR$/web/weather/weather-client/weather.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/weather/weather-client/weather.iml" filepath="$PROJECT_DIR$/web/weather/weather-client/weather.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/weather/weather-sensor/weather-sensor.iml" filepath="$PROJECT_DIR$/web/weather/weather-sensor/weather-sensor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/weather/weather-sensor/weather-sensor.iml" filepath="$PROJECT_DIR$/web/weather/weather-sensor/weather-sensor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/weather/weather-server/weather-server.iml" filepath="$PROJECT_DIR$/web/weather/weather-server/weather-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/weather/weather-server/weather-server.iml" filepath="$PROJECT_DIR$/web/weather/weather-server/weather-server.iml" />
     </modules>
   </component>

@@ -1,10 +1,10 @@
 package at.nacs.drhouseadmission.communication;
 
-import at.nacs.drhouseadmission.domain.Patient;
+import at.nacs.drhouseadmission.communication.client.DiagnosesClient;
+import at.nacs.drhouseadmission.communication.dto.Patient;
 
 
 import at.nacs.drhouseadmission.logic.Admission;
-import at.nacs.drhouseadmission.logic.PatientManager;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;

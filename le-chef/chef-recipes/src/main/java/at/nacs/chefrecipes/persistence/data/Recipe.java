@@ -30,6 +30,7 @@ public class Recipe {
     private String typ;
 
     @ElementCollection(fetch = FetchType.EAGER)
+    @Builder.Default
     private List<String> label = new ArrayList<>();
 
     private String origin;

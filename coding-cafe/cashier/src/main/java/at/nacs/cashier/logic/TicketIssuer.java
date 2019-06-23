@@ -42,7 +42,7 @@ public class TicketIssuer {
 
   }
 
-  private Product getProduct(String e) {
-    return Product.builder().name(e).price(priceList.get(e)).build();
+  private Product getProduct(String item) {
+    return Product.builder().name(item).price(priceList.get(item)).build();
   }
 }
